@@ -1,0 +1,716 @@
+MATCOR: A Program for the Cross-Validation of Material Properties Between Databases
+
+SV == Structure VERIFIED with pymatgen structure matcher
+NSV == Structure NOT VERIFIED with pymatgen structure matcher
+HUB == Hubbard-U used
+DFT == Hubbard-U not used
+
+pool_0_0: mp-1017543               Pm-3m #221                                                            None               ZrPd3
+pool_0_1: aflow:6f31b68c4e51ca8d   Pm-3m #221,Pm-3m #221                                                 None
+pool_0_2: aflow:2517842dff79e375   Pnma #62,Pm-3m #221                                                   None
+pool_0_3: aflow:e33baf92d3701732   Cmmm #65,Pm-3m #221                                                   None
+pool_0_4: aflow:d713a33a1aa9f264   Pm-3m #221,Pm-3m #221                                                 None
+pool_0_5: aflow:9a651ffab2500133   P4/mmm #123,Pm-3m #221                                                None
+pool_0_6: aflow:9f890ac752b64ec8   Pmm2 #25,Pm-3m #221                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_0: ZrPd3    mp-1017543            	DFT-DFT  	SV     	10.3408    	aflow:9f890ac752b64ec8	10.3584       	0.0176        
+pool_1_0: mp-1786                  Pm-3n #223                                                            None                  Ti3Au
+pool_1_1: aflow:57e93e47f8b0b57f   Pm-3n #223,Pm-3n #223                                                 None
+pool_1_2: aflow:cb08eb3f994d5c32   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_1: Ti3Au    mp-1786               	DFT-DFT  	SV     	8.4603     	aflow:57e93e47f8b0b57f	8.4958        	0.0355        
+pool_2_0: mp-22478                 P6/mmm #191                                                           None                 FeGe
+pool_2_1: aflow:bf290af0aa9dee39   P6/mmm #191,P6/mmm #191                                               None
+pool_2_2: aflow:6df68f7cb91d9e0c   P6/mmm #191,P6/mmm #191                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_2: FeGe     mp-22478              	DFT-DFT  	SV     	7.3969     	aflow:bf290af0aa9dee39	7.4275        	0.0306        
+pool_3_0: mp-2593                  Pm-3m #221                                                            None                  AlNi3
+pool_3_1: aflow:af955b9d78ee2135   Pm-3m #221,Pm-3m #221                                                 None
+pool_3_2: aflow:103c03b42470ecc5   Pm-3m #221,Pm-3m #221                                                 None
+pool_3_3: aflow:ff2342ed02b99625   P4/mmm #123,Pm-3m #221                                                None
+pool_3_4: aflow:023a5836d3cba3e8   P4/mmm #123,Pm-3m #221                                                None
+pool_3_5: aflow:b17d452d976eff96   Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_3: AlNi3    mp-2593               	DFT-DFT  	SV     	7.4667     	aflow:b17d452d976eff96	7.4755        	0.0088        
+pool_4_0: mp-1007855               I4/mmm #139                                                           None               FeNi3
+pool_4_1: aflow:bcd69fdd2f2e1224   I4/mmm #139,I4/mmm #139                                               None
+pool_4_2: aflow:5d81513f99c1e6b3   Immm #71,I4/mmm #139                                                  None
+pool_4_3: aflow:69e41e3bdec0a652   I4/mmm #139,I4/mmm #139                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_4: FeNi3    mp-1007855            	DFT-DFT  	SV     	8.7121     	aflow:69e41e3bdec0a652	8.7086        	0.0035        
+pool_5_0: mp-1018067               Fm-3m #225                                                            None               CrFe3
+pool_5_1: aflow:9d34649091d46487   Fm-3m #225,Fm-3m #225                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_5: CrFe3    mp-1018067            	DFT-DFT  	SV     	7.9817     	aflow:9d34649091d46487	8.0523        	0.0706        
+pool_6_0: mp-18427                 P4_2/mnm #136                                                         None                 Nb2Al
+pool_6_1: aflow:e62d7ecc31e8409d   P4_{2}/mnm #136,P4_{2}/mnm #136                                       None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_6: Nb2Al    mp-18427              	DFT-DFT  	SV     	6.7895     	aflow:e62d7ecc31e8409d	6.8672        	0.0777        
+pool_7_0: mp-2090                  Pm-3m #221                                                            None                  FeCo
+pool_7_1: aflow:81aed5c13038b3dc   P2_{1}/m #11,Pm-3m #221                                               None
+pool_7_2: aflow:1de34811f9e6f781   Pm-3m #221,Pm-3m #221                                                 None
+pool_7_3: aflow:2cb858d5c6c24c65   P4/mmm #123,Pm-3m #221                                                None
+pool_7_4: aflow:9a3754965016b3dc   Pm-3m #221,Pm-3m #221                                                 None
+pool_7_5: aflow:723681301c320bd8   Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_7: FeCo     mp-2090               	DFT-DFT  	SV     	8.2904     	aflow:2cb858d5c6c24c65	8.2995        	0.0091        
+pool_8_0: mp-21008                 Pm-3m #221                                                            None                 Ni3Ge
+pool_8_1: aflow:8d6fc61749fa4a97   Pm-3m #221,Pm-3m #221                                                 None
+pool_8_2: aflow:7d0382cc8708cf57   Pm-3m #221,Pm-3m #221                                                 None
+pool_8_3: aflow:43bfebcda5837374   P4/mmm #123,Pm-3m #221                                                None
+pool_8_4: aflow:9e1a7414c1512f35   Pnma #62,Pm-3m #221                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_8: Ni3Ge    mp-21008              	DFT-DFT  	SV     	9.0085     	aflow:43bfebcda5837374	9.0435        	0.0350        
+pool_9_0: mp-2213                  P4/mmm #123                                                           None                  FeNi
+pool_9_1: aflow:5f697f3a7e258779   P4/mmm #123,P4/mmm #123                                               None
+pool_9_2: aflow:17f1b0e9cd205d38   P4/mmm #123,P4/mmm #123                                               None
+pool_9_3: aflow:0827f5af5cfa8f6c   Cmmm #65,P4/mmm #123                                                  None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_9: FeNi     mp-2213               	DFT-DFT  	SV     	8.4525     	aflow:5f697f3a7e258779	8.4423        	0.0102        
+pool_10_0: mp-333                   Fd-3m #227                                                            None                   HfFe2
+pool_10_1: aflow:3d4d644a6b67978a   Fd-3m #227,Fd-3m #227                                                 None
+pool_10_2: aflow:5e683791e9215fdb   Fd-3m #227,Fd-3m #227                                                 None
+pool_10_3: aflow:035f1930c4215b6d   Fd-3m #227,Fd-3m #227                                                 None
+pool_10_4: aflow:1675af4f69dda26f   R32 #155,Fd-3m #227                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_10: HfFe2   mp-333                	DFT-DFT  	SV     	11.2657    	aflow:3d4d644a6b67978a	11.3147       	0.0490        
+pool_11_0: mp-570673                P6/mmm #191                                                           None                ScNi5
+pool_11_1: aflow:69d3f9ef55dcd065   P6/mmm #191,P6/mmm #191                                               None
+pool_11_2: aflow:14bcd4bcafc55bf7   P6/mmm #191,P6/mmm #191                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_11: ScNi5   mp-570673             	DFT-DFT  	SV     	7.3353     	aflow:69d3f9ef55dcd065	7.2986        	0.0367        
+pool_12_0: mp-865611                Imm2 #44                                                              None                MgRh3
+pool_12_1: aflow:6050b912c93cf7d4   Imm2 #44,Imm2 #44                                                     None
+pool_12_2: aflow:43e3f5c2ee6790a1   Imm2 #44,Imm2 #44                                                     None
+pool_12_3: aflow:1a22950cf61557f8   Imm2 #44,Imm2 #44                                                     None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_12: MgRh3   mp-865611             	DFT-DFT  	SV     	9.4363     	aflow:6050b912c93cf7d4	9.4934        	0.0571        
+pool_13_0: mp-11453                 P6_3/mmc #194                                                         None                 HfPd3
+pool_13_1: aflow:04baf9ec64c1a4b0   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_13_2: aflow:035c5f8451ff7779   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_13_3: aflow:b20fa5966f781184   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_13_4: aflow:9a1a3628c9d8a91d   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_13_5: aflow:c30bdcb47918cbc1   Cmcm #63,P6_{3}/mmc #194                                              None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_13: HfPd3   mp-11453              	DFT-DFT  	SV     	12.7654    	aflow:9a1a3628c9d8a91d	12.7971       	0.0317        
+pool_14_0: mp-1358                  Fd-3m #227                                                            None                  DyIr2
+pool_14_1: aflow:7cb8e9e9facd592b   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([3, 2]), 'LDAUU': array([5.6, 2.8]), 'LDAUJ': array([0, 0])}
+pool_14_2: aflow:d5e8c6f070bae071   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([3, 2]), 'LDAUU': array([5.6, 2.8]), 'LDAUJ': array([0, 0])}
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_14: DyIr2   mp-1358               	DFT-HUB  	SV     	16.6657    	aflow:7cb8e9e9facd592b	17.0865       	0.4208        
+pool_15_0: mp-1418                  Pm-3m #221                                                            None                  FeNi3
+pool_15_1: aflow:a1e561024ef5ae1c   Pm-3m #221,Pm-3m #221                                                 None
+pool_15_2: aflow:5e9cfccab8b68dd6   Pm-3m #221,Pm-3m #221                                                 None
+pool_15_3: aflow:dfc94e8b06e094cd   Pm-3m #221,Pm-3m #221                                                 None
+pool_15_4: aflow:03d09ee7a6456a48   P4/mmm #123,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_15: FeNi3   mp-1418               	DFT-DFT  	SV     	8.7005     	aflow:5e9cfccab8b68dd6	8.6952        	0.0053        
+pool_16_0: mp-1495                  Fd-3m #227                                                            None                  ErIr2
+pool_16_1: aflow:94af84d2b2d033a2   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.8]), 'LDAUJ': array([0, 0])}
+pool_16_2: aflow:daecdd65eee60ff6   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.8]), 'LDAUJ': array([0, 0])}
+pool_16_3: aflow:2e67ec776b02c2ba   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.8]), 'LDAUJ': array([0, 0])}
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_16: ErIr2   mp-1495               	DFT-HUB  	SV     	16.9940    	aflow:94af84d2b2d033a2	17.4321       	0.4381        
+pool_17_0: mp-171                   I4/mmm #139                                                           None                   VNi3
+pool_17_1: aflow:75af2c9f6638deb8   I4/mmm #139,I4/mmm #139                                               None
+pool_17_2: aflow:5485e75f3522ad38   I4/mmm #139,I4/mmm #139                                               None
+pool_17_3: aflow:96638943449d62d0   I4/mmm #139,I4/mmm #139                                               None
+pool_17_4: aflow:98688eeac0c1b4e4   Immm #71,I4/mmm #139                                                  None
+pool_17_5: aflow:64657c970c98ee19   I4/mmm #139,I4/mmm #139                                               None
+pool_17_6: aflow:6bf8683ee7748231   Immm #71,I4/mmm #139                                                  None
+pool_17_7: aflow:116154af1e10a504   I4/mmm #139,I4/mmm #139                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_17: VNi3    mp-171                	DFT-DFT  	SV     	8.4377     	aflow:5485e75f3522ad38	8.4337        	0.0040        
+pool_18_0: mp-1761                  Fd-3m #227                                                            None                  LuIr2
+pool_18_1: aflow:281b1a764ef9cfd4   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([2.8, 4.8]), 'LDAUJ': array([0. , 0.9])}
+pool_18_2: aflow:0de15907838a9be4   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([2.8, 4.8]), 'LDAUJ': array([0. , 0.9])}
+pool_18_3: aflow:a817c89c75769a12   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([2.8, 4.8]), 'LDAUJ': array([0. , 0.9])}
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_18: LuIr2   mp-1761               	DFT-HUB  	SV     	17.4913    	aflow:0de15907838a9be4	17.9031       	0.4118        
+pool_19_0: mp-2260                  P4/mmm #123                                                           None                  FePt
+pool_19_1: aflow:2674c8b7a1f3aa77   P4/nmm #129,P4/mmm #123                                               None
+pool_19_2: aflow:91da6e03cd578251   P4/mmm #123,P4/mmm #123                                               None
+pool_19_3: aflow:6d9b7cc2dcfd7938   P4/mmm #123,P4/mmm #123                                               None
+pool_19_4: aflow:c5522f03d1d5afb4   P4/nmm #129,P4/mmm #123                                               None
+pool_19_5: aflow:c34000a278a9bc60   P4/mmm #123,P4/mmm #123                                               None
+pool_19_6: aflow:11ff097e696b5a32   Cmmm #65,P4/mmm #123                                                  None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_19: FePt     mp-2260               	DFT-DFT  	SV     	14.8146    	aflow:11ff097e696b5a32	14.8106       	0.0040
+pool_20_0: mp-2439                  F-43m #216                                                            None                  ZrNi5
+pool_20_1: aflow:5fcc108fcfae44c3   F-43m #216,F-43m #216                                                 None
+pool_20_2: aflow:aa7431b3e1bf7d6f   F-43m #216,F-43m #216                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_20: ZrNi5    mp-2439               	DFT-DFT  	SV     	8.5193     	aflow:aa7431b3e1bf7d6f	8.5157        	0.0036
+pool_21_0: mp-2725                  Fd-3m #227                                                            None                  TbIr2
+pool_21_1: aflow:4ea3d3baf7d80a5d   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.8, 0. ]), 'LDAUJ': array([0, 0])}
+pool_21_2: aflow:b66e2406bb2d5610   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.8, 0. ]), 'LDAUJ': array([0, 0])}
+pool_21_3: aflow:b3cf3257eec95fbd   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.8, 0. ]), 'LDAUJ': array([0, 0])}
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_21: TbIr2    mp-2725               	DFT-HUB  	SV     	16.4601    	aflow:4ea3d3baf7d80a5d	16.8733       	0.4132
+pool_22_0: mp-2802                  Pm-3m #221                                                            None                  HfRu
+pool_22_1: aflow:f8fd63375a531fdc   P2_{1}/m #11,Pm-3m #221                                               None
+pool_22_2: aflow:8bb4bb064fc6c0dc   P2_{1}/m #11,Pm-3m #221                                               None
+pool_22_3: aflow:a33304b8322f241b   P4/nmm #129,Pm-3m #221                                                None
+pool_22_4: aflow:6c116a4aad07bdd2   Pm-3m #221,Pm-3m #221                                                 None
+pool_22_5: aflow:bb0f0b93a768a787   Pm-3m #221,Pm-3m #221                                                 None
+pool_22_6: aflow:9be99b987edde021   P4/mmm #123,Pm-3m #221                                                None
+pool_22_7: aflow:9fbb058a3081be0e   Pmma #51,Pm-3m #221                                                   None
+pool_22_8: aflow:64a2094ca08fb87d   P2_{1}/m #11,Pm-3m #221                                               None
+pool_22_9: aflow:2008e87fa8c8c073   Cmmm #65,Pm-3m #221                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_22: HfRu     mp-2802               	DFT-DFT  	SV     	13.5955    	aflow:a33304b8322f241b	13.5918       	0.0037
+pool_23_0: mp-305                   Pm-3m #221                                                            None                   TiFe
+pool_23_1: aflow:4e2e73c313daa9b8   P4/nmm #129,Pm-3m #221                                                None
+pool_23_2: aflow:f3d02b437c05c9e9   Pm-3m #221,Pm-3m #221                                                 None
+pool_23_3: aflow:dc306ed5e8ae7d3c   P4/mmm #123,Pm-3m #221                                                None
+pool_23_4: aflow:8bd6c5ed047d421a   Pmma #51,Pm-3m #221                                                   None
+pool_23_5: aflow:c58ec30f0e06f57d   P2_{1}/m #11,Pm-3m #221                                               None
+pool_23_6: aflow:09edda922647c5e5   P4/nmm #129,Pm-3m #221                                                None
+pool_23_7: aflow:c89d5434d677dd51   Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_23: TiFe     mp-305                	DFT-DFT  	SV     	6.6420     	aflow:09edda922647c5e5	6.7054        	0.0634
+pool_24_0: mp-569516                F-43m #216                                                            None                HfNi5
+pool_24_1: aflow:5703fe522d999e52   F-43m #216,F-43m #216                                                 None
+pool_24_2: aflow:653d2ce7bcd7079d   F-43m #216,F-43m #216                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_24: HfNi5    mp-569516             	DFT-DFT  	SV     	10.6070    	aflow:653d2ce7bcd7079d	10.5727       	0.0343
+pool_25_0: mp-601842                Pm-3m #221                                                            None                Fe9Co7
+pool_25_1: aflow:7f73ffebb07b2d90   Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_25: Fe9Co7   mp-601842             	DFT-DFT  	SV     	8.2068     	aflow:7f73ffebb07b2d90	8.8324        	0.6256
+pool_26_0: mp-601848                P4/mmm #123                                                           None                Fe11Co5
+pool_26_1: aflow:0b7d7cefb32bdbb5   P4/mmm #123,P4/mmm #123                                               None
+input_id                                        hubbard_U       SV//NSV property_py     output_material          property_AFLOW  min_difference
+pool_best_26: Fe11Co5  mp-601848                DFT-DFT         SV      8.1085          aflow:0b7d7cefb32bdbb5   8.8450          0.7365
+pool_27_0: mp-636328                Pm-3m #221                                                            None                TiPd3
+pool_27_1: aflow:d73b71383982090d   Pm-3m #221,Pm-3m #221                                                 None
+pool_27_2: aflow:2309f686765c065e   Pnma #62,Pm-3m #221                                                   None
+pool_27_3: aflow:809d0c47999c2709   Pm-3m #221,Pm-3m #221                                                 None
+pool_27_4: aflow:6a317048a816bd99   Pm-3m #221,Pm-3m #221                                                 None
+pool_27_5: aflow:fafe963b1842db06   P4/mmm #123,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_27: TiPd3    mp-636328             	DFT-DFT  	SV     	10.0282    	aflow:fafe963b1842db06	10.0532       	0.0250
+pool_28_0: mp-641526                P4/mmm #123                                                           None                Fe13Co3
+pool_28_1: aflow:8f766b123ff4c548   P4/mmm #123,P4/mmm #123                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_28: Fe13Co3  mp-641526             	DFT-DFT  	SV     	8.0391     	aflow:8f766b123ff4c548	8.1242        	0.0851
+pool_29_0: mp-7226                  Pm-3n #223                                                            None                  V3Ni
+pool_29_1: aflow:6ec469bdd10ef565   Pm-3n #223,Pm-3n #223                                                 None
+pool_29_2: aflow:39fb1b471c1500fa   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_29: V3Ni     mp-7226               	DFT-DFT  	SV     	6.8988     	aflow:39fb1b471c1500fa	6.8904        	0.0084
+pool_30_0: mp-7250                  R-3m #166                                                             None                  Nb6Co7
+pool_30_1: aflow:b80eb2e96b24a1eb   R-3m #166,R-3m #166                                                   None
+pool_30_2: aflow:a41d394b712449eb   R-3m #166,R-3m #166                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_30: Nb6Co7   mp-7250               	DFT-DFT  	SV     	8.8858     	aflow:a41d394b712449eb	9.0423        	0.1565
+pool_31_0: mp-818                   Pnma #62                                                              None                   SiRh
+pool_31_1: aflow:ce43d529c91389eb   Pnma #62,Pnma #62                                                     None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_31: SiRh     mp-818                	DFT-DFT  	SV     	7.7640     	aflow:ce43d529c91389eb	7.8009        	0.0369
+pool_32_0: mp-866134                Fm-3m #225                                                            None                VFe3
+pool_32_1: aflow:05c826cccb796dc0   Fm-3m #225,Fm-3m #225                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_32: VFe3    mp-866134             	DFT-DFT  	SV     	7.7398     	aflow:05c826cccb796dc0	7.8004        	0.0606
+pool_33_0: mp-1009133               Pm-3m #221                                                            None               MnCo
+pool_33_1: aflow:e4cc0f193086a7b2   Pm-3m #221,Pm-3m #221                                                 None
+pool_33_2: aflow:5d41efe016bf579d   P2_{1}/m #11,Pm-3m #221                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_33: MnCo    mp-1009133            	DFT-DFT  	SV     	8.1374     	aflow:5d41efe016bf579d	8.1558        	0.0184
+pool_34_0: mp-1010071               Pm-3m #221                                                            None               CrCo
+pool_34_1: aflow:472bf84cd79ac5d2   Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_34: CrCo    mp-1010071            	DFT-DFT  	SV     	7.9471     	aflow:472bf84cd79ac5d2	7.9658        	0.0187
+pool_35_0: mp-11276                 Pm-3m #221                                                            None                 BeRh
+pool_35_1: aflow:237e289ecedb259f   P2_{1}/m #11,Pm-3m #221                                               None
+pool_35_2: aflow:60cda488cabbc2e7   P4/nmm #129,Pm-3m #221                                                None
+pool_35_3: aflow:a5aebddf52768641   Pm-3m #221,Pm-3m #221                                                 None
+pool_35_4: aflow:567e90f6df908ce0   Pm-3m #221,Pm-3m #221                                                 None
+pool_35_5: aflow:687c06a3f60a7bc0   P4/mmm #123,Pm-3m #221                                                None
+pool_35_6: aflow:10a7aafcdb53e3c9   Pnma #62,Pm-3m #221                                                   None
+pool_35_7: aflow:6411066942bf5403   Pmma #51,Pm-3m #221                                                   None
+pool_35_8: aflow:cfd953012f2b63cc   P2_{1}/m #11,Pm-3m #221                                               None
+pool_35_9: aflow:7a4209f0ebee994c   P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_35: BeRh    mp-11276              	DFT-DFT  	SV     	8.5906     	aflow:cfd953012f2b63cc	8.5881        	0.0025
+pool_36_0: mp-11514                 Immm #71                                                              None                 NbPt2
+pool_36_1: aflow:ce559c62408c5b2d   C2/m #12,Immm #71                                                     None
+pool_36_2: aflow:20844b72cab4b620   Pnnm #58,Immm #71                                                     None
+pool_36_3: aflow:45f1beb4065e96f3   Immm #71,Immm #71                                                     None
+pool_36_4: aflow:63d4bcb77b70b396   C2/m #12,Immm #71                                                     None
+pool_36_5: aflow:383165a7e79fe09b   Immm #71,I4/mmm #139                                                  None
+pool_36_6: aflow:c876d8416724834f   Pnnm #58,Immm #71                                                     None
+pool_36_7: aflow:d615b48f01dd5d81   Immm #71,Immm #71                                                     None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_36: NbPt2   mp-11514              	DFT-DFT  	SV     	16.4976    	aflow:ce559c62408c5b2d	16.5714       	0.0738
+pool_37_0: mp-12108                 Immm #71                                                              None                 VPt2
+pool_37_1: aflow:f2b54887dec376ac   Pnnm #58,Immm #71                                                     None
+pool_37_2: aflow:63c1e355cd190c27   C2/m #12,Immm #71                                                     None
+pool_37_3: aflow:10ddb73d285d6c64   Immm #71,Immm #71                                                     None
+pool_37_4: aflow:0f760129151eeab8   Pnnm #58,Immm #71                                                     None
+pool_37_5: aflow:b2f4ba1613d99618   Immm #71,Immm #71                                                     None
+pool_37_6: aflow:79cab0d070bcbce4   Immm #71,Immm #71                                                     None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_37: VPt2    mp-12108              	DFT-DFT  	SV     	16.5379    	aflow:b2f4ba1613d99618	16.5623       	0.0244
+pool_38_0: mp-12778                 Pm-3m #221                                                            None                 VOs
+pool_38_1: aflow:eaa3095ea0f07dec   P2_{1}/m #11,Pm-3m #221                                               None
+pool_38_2: aflow:567385f160f039ea   Pm-3m #221,Pm-3m #221                                                 None
+pool_38_3: aflow:02825535ae74518c   P4/nmm #129,Pm-3m #221                                                None
+pool_38_4: aflow:9c4f9cc83c1ad608   Pm-3m #221,Pm-3m #221                                                 None
+pool_38_5: aflow:eae22f863c9500f2   P4/mmm #123,Pm-3m #221                                                None
+pool_38_6: aflow:28d1dd146d3bd053   Pmma #51,Pm-3m #221                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_38: VOs     mp-12778              	DFT-DFT  	SV     	14.4866    	aflow:567385f160f039ea	14.4887       	0.0021
+pool_39_0: mp-13100                 Pm-3m #221                                                            None                 MoPt3
+pool_39_1: aflow:e31bf8f969a18c10   Pm-3m #221,Pm-3m #221                                                 None
+pool_39_2: aflow:d6ee86a0893fd68b   Pm-3m #221,Pm-3m #221                                                 None
+pool_39_3: aflow:26ecc2c5af646ef6   P4/mmm #123,Pm-3m #221                                                None
+pool_39_4: aflow:eefe14c52e4990ed   Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_39: MoPt3    mp-13100              	DFT-DFT  	SV     	17.9484    	aflow:d6ee86a0893fd68b	18.0057       	0.0573
+pool_40_0: mp-1409                  P6_3/mmc #194                                                         None                  TiNi3
+pool_40_1: aflow:5a1055a5e25ae9f8   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_40_2: aflow:6cb4805bc4a7b025   Cmcm #63,P6_{3}/mmc #194                                              None
+pool_40_3: aflow:9ecd2dab8111a68d   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_40_4: aflow:daba86289455b6bb   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_40_5: aflow:1577cbb5fbf148e8   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_40: TiNi3   mp-1409               	DFT-DFT  	SV     	7.9581     	aflow:1577cbb5fbf148e8	7.9457        	0.0124
+pool_41_0: mp-2705                  I4/mmm #139                                                           None                  VPt3
+pool_41_1: aflow:3ad5dea6361c5735   I4/mmm #139,I4/mmm #139                                               None
+pool_41_2: aflow:b13ad5548086fdcd   I4/mmm #139,I4/mmm #139                                               None
+pool_41_3: aflow:aa270106902df1bd   Immm #71,I4/mmm #139                                                  None
+pool_41_4: aflow:20138a1c502b0340   Immm #71,I4/mmm #139                                                  None
+pool_41_5: aflow:9ac67754b6baa57e   I4/mmm #139,I4/mmm #139                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_41: VPt3    mp-2705               	DFT-DFT  	SV     	17.5659    	aflow:aa270106902df1bd	17.5761       	0.0102
+pool_42_0: mp-30738                 Imm2 #44                                                              None                 LiIr3
+pool_42_1: aflow:ff2ad5f608140ea5   Imm2 #44,Imm2 #44                                                     None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_42: LiIr3   mp-30738              	DFT-DFT  	SV     	17.3684    	aflow:ff2ad5f608140ea5	17.3626       	0.0058
+pool_43_0: mp-569594                R-3m #166                                                             None                Fe7Mo6
+pool_43_1: aflow:3b8a25906359deec   R-3m #166,R-3m #166                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_43: Fe7Mo6  mp-569594             	DFT-DFT  	SV     	9.6141     	aflow:3b8a25906359deec	9.4769        	0.1372
+pool_44_0: mp-592                   Pm-3m #221                                                            None                   TiRu
+pool_44_1: aflow:c5a9a8ccc11bcfec   P4/nmm #129,Pm-3m #221                                                None
+pool_44_2: aflow:5c51ea70e4230275   Pm-3m #221,Pm-3m #221                                                 None
+pool_44_3: aflow:6ee18c6c607183da   P4/mmm #123,Pm-3m #221                                                None
+pool_44_4: aflow:4d771871d6ad7330   Pm-3m #221,Pm-3m #221                                                 None
+pool_44_5: aflow:3107fb1310f9390d   Pmma #51,Pm-3m #221                                                   None
+pool_44_6: aflow:5e11f7a12b177e96   P2_{1}/m #11,Pm-3m #221                                               None
+pool_44_7: aflow:b9007298ebe97d20   P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_44: TiRu    mp-592                	DFT-DFT  	SV     	8.4194     	aflow:5e11f7a12b177e96	8.4277        	0.0083
+pool_45_0: mp-670                   Fd-3m #227                                                            None                   NbCo2
+pool_45_1: aflow:2a343ad4d6e2adb9   Fd-3m #227,Fd-3m #227                                                 None
+pool_45_2: aflow:68e88c163f5a6b96   Fd-3m #227,Fd-3m #227                                                 None
+pool_45_3: aflow:5469b1ae0a1d8359   Fd-3m #227,Fd-3m #227                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_45: NbCo2   mp-670                	DFT-DFT  	SV     	9.1337     	aflow:2a343ad4d6e2adb9	9.1366        	0.0029
+pool_46_0: mp-949                   P4/mmm #123                                                           None                   CoPt
+pool_46_1: aflow:9f22cacc07ff6db3   P4/mmm #123,P4/mmm #123                                               None
+pool_46_2: aflow:8b2256b1c78c6d5c   P4/nmm #129,P4/mmm #123                                               None
+pool_46_3: aflow:4a77373ac09d1c6d   P4/mmm #123,P4/mmm #123                                               None
+pool_46_4: aflow:4f28e0defbc52b33   P4/nmm #129,P4/mmm #123                                               None
+pool_46_5: aflow:03df283108a21924   Cmmm #65,P4/mmm #123                                                  None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_46: CoPt    mp-949                	DFT-DFT  	SV     	15.5448    	aflow:4a77373ac09d1c6d	15.5682       	0.0234
+pool_47_0: mp-1008279               Pm-3m #221                                                            None               Co3Mo
+pool_47_1: aflow:2bf99734cf8d38b6   Pm-3m #221,Pm-3m #221                                                 None
+pool_47_2: aflow:73240c64da0178c7   Pnma #62,Pm-3m #221                                                   None
+pool_47_3: aflow:ddf4bbff34d2f5d2   Pm-3m #221,Pm-3m #221                                                 None
+pool_47_4: aflow:73ef49207f6a1706   P4/mmm #123,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_47: Co3Mo   mp-1008279            	DFT-DFT  	SV     	9.7628     	aflow:73240c64da0178c7	9.7627        	0.0001
+pool_48_0: mp-11452                 Pm-3m #221                                                            None                 HfOs
+pool_48_1: aflow:88da6b37cfc38651   Pm-3m #221,Pm-3m #221                                                 None
+pool_48_2: aflow:79f00c5704fceb0f   P2_{1}/m #11,Pm-3m #221                                               None
+pool_48_3: aflow:baae56b4f396989c   P2_{1}/m #11,Pm-3m #221                                               None
+pool_48_4: aflow:cb794b0397ecd6ae   Pm-3m #221,Pm-3m #221                                                 None
+pool_48_5: aflow:a54040bbac63aca5   P4/nmm #129,Pm-3m #221                                                None
+pool_48_6: aflow:155df7580edc247a   Pm-3m #221,Pm-3m #221                                                 None
+pool_48_7: aflow:4e37164726bdc1ad   P4/mmm #123,Pm-3m #221                                                None
+pool_48_8: aflow:06feb2add959a301   Pmma #51,Pm-3m #221                                                   None
+pool_48_9: aflow:ac1fce8fc03f115a   P2_{1}/m #11,Pm-3m #221                                               None
+pool_48_10: aflow:58390001e22d3f1e  Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_48: HfOs    mp-11452              	DFT-DFT  	SV     	17.6913    	aflow:a54040bbac63aca5	17.7254       	0.0341
+pool_49_0: mp-11572                 Pm-3m #221                                                            None                 TaTc
+pool_49_1: aflow:578a0b458b96688b   P4/nmm #129,Pm-3m #221                                                None
+pool_49_2: aflow:964c0ed796e08103   Pm-3m #221,Pm-3m #221                                                 None
+pool_49_3: aflow:73c0a92c150786bc   P4/mmm #123,Pm-3m #221                                                None
+pool_49_4: aflow:b431a756f3d9db6a   Pm-3m #221,Pm-3m #221                                                 None
+pool_49_5: aflow:92fd630d7a38cee8   Pmma #51,Pm-3m #221                                                   None
+pool_49_6: aflow:3cc49892e85c73cb   P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_49: TaTc    mp-11572              	DFT-DFT  	SV     	14.2582    	aflow:964c0ed796e08103	14.3273       	0.0691
+pool_50_0: mp-12595                 Pmma #51                                                              None                 MoRh
+pool_50_1: aflow:a9d63077fe7c78e5   Pmma #51,Pmma #51                                                     None
+pool_50_2: aflow:64c30c3617648b76   P2_{1}/m #11,Pmma #51                                                 None
+pool_50_3: aflow:a71313bff1309ae3   P2_{1}/m #11,Pmma #51                                                 None
+pool_50_4: aflow:6ba6836d2365972e   Pmma #51,Pmma #51                                                     None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_50: MoRh    mp-12595              	DFT-DFT  	SV     	11.0888    	aflow:a9d63077fe7c78e5	11.1189       	0.0301
+pool_51_0: mp-1281                  P4/mmm #123                                                           None                  VIr
+pool_51_1: aflow:e894f846d730bbc3   P4/mmm #123,P4/mmm #123                                               None
+pool_51_2: aflow:c8d6e5669843a949   P4/nmm #129,P4/mmm #123                                               None
+pool_51_3: aflow:6ce3bf2a9a670854   P4/mmm #123,P4/mmm #123                                               None
+pool_51_4: aflow:add37ab0ff1c680f   P4/mmm #123,P4/mmm #123                                               None
+pool_51_5: aflow:6db33818cd9bc5e6   Cmmm #65,P4/mmm #123                                                  None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_51: VIr     mp-1281               	DFT-DFT  	SV     	14.4845    	aflow:c8d6e5669843a949	14.4845       	0.0000
+pool_52_0: mp-1473                  R-3m #166                                                             None                  Fe7W6
+pool_52_1: aflow:ccee043600a23548   R-3m #166,R-3m #166                                                   None
+pool_52_2: aflow:0d08e8d7d4325a05   R-3m #166,R-3m #166                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_52: Fe7W6   mp-1473               	DFT-DFT  	SV     	14.5575    	aflow:ccee043600a23548	14.6518       	0.0943
+pool_53_0: mp-1799                  Fd-3m #227                                                            None                  TaCo2
+pool_53_1: aflow:d4739e8da8db810f   Fd-3m #227,Fd-3m #227                                                 None
+pool_53_2: aflow:47f2561d8306e6fe   Fd-3m #227,Fd-3m #227                                                 None
+pool_53_3: aflow:b6353d913761332d   Fd-3m #227,Fd-3m #227                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_53: TaCo2   mp-1799               	DFT-DFT  	SV     	13.0260    	aflow:d4739e8da8db810f	13.0321       	0.0061
+pool_54_0: mp-2157                  P6_3/mmc #194                                                         None                  Co3W
+pool_54_1: aflow:a365bcbbe78a59a0   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_54_2: aflow:5397d5f807ed8477   Cmcm #63,P6_{3}/mmc #194                                              None
+pool_54_3: aflow:13f50f554bdd2ec0   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_54_4: aflow:f82878cfdb11579c   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_54_5: aflow:093d8c480d7f167f   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_54: Co3W    mp-2157               	DFT-DFT  	SV     	12.9241    	aflow:5397d5f807ed8477	12.9161       	0.0080
+pool_55_0: mp-30787                 P6_3/mmc #194                                                         None                 MoRh3
+pool_55_1: aflow:05c4f39db33f9793   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_55_2: aflow:b1594e1b07f0363d   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_55_3: aflow:a28e854e3326e7db   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_55_4: aflow:5309020bc327a6e4   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_55_5: aflow:ff4497c73bd904e6   Cmcm #63,P6_{3}/mmc #194                                              None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_55: MoRh3   mp-30787              	DFT-DFT  	SV     	11.6052    	aflow:a28e854e3326e7db	11.6548       	0.0496
+pool_56_0: mp-316                   Pm-3m #221                                                            None                   MnV
+pool_56_1: aflow:f70cab97c0ad2977   Pm-3m #221,Pm-3m #221                                                 None
+pool_56_2: aflow:756c20564c007bef   P2_{1}/m #11,Pm-3m #221                                               None
+pool_56_3: aflow:3781c6284774a8f0   Pm-3m #221,Pm-3m #221                                                 None
+pool_56_4: aflow:5e2de4f90c5a340f   P4/mmm #123,Pm-3m #221                                                None
+pool_56_5: aflow:af551ccb5a8d26f9   Pmma #51,Pm-3m #221                                                   None
+pool_56_6: aflow:0200543f80c34eb1   P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_56: MnV     mp-316                	DFT-DFT  	SV     	7.4063     	aflow:0200543f80c34eb1	7.4111        	0.0048
+pool_57_0: mp-567747                R-3m #166                                                             None                Co7Mo6
+pool_57_1: aflow:2a6352cf55d3359f   R-3m #166,R-3m #166                                                   None
+pool_57_2: aflow:7ce36e3878840e0c   R-3m #166,R-3m #166                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_57: Co7Mo6  mp-567747             	DFT-DFT  	SV     	9.8684     	aflow:2a6352cf55d3359f	9.8907        	0.0223
+pool_58_0: mp-7851                  R-3m #166                                                             None                  TaCo3
+pool_58_1: aflow:0314206fb852b0c4   R-3m #166,R-3m #166                                                   None
+pool_58_2: aflow:592b110b5189e924   R-3m #166,R-3m #166                                                   None
+pool_58_3: aflow:3cbbc4dfcf8ed761   R-3m #166,R-3m #166                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_58: TaCo3   mp-7851               	DFT-DFT  	SV     	12.3490    	aflow:592b110b5189e924	12.3552       	0.0062
+pool_59_0: mp-801                   Pm-3n #223                                                            None                   Mo3Os
+pool_59_1: aflow:a61ef2ba8ee9ac46   Pm-3n #223,Pm-3n #223                                                 None
+pool_59_2: aflow:c3b7968ac3954497   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_59: Mo3Os   mp-801                	DFT-DFT  	SV     	12.6762    	aflow:a61ef2ba8ee9ac46	12.7192       	0.0430
+pool_60_0: mp-639789                P4_132 #213                                                           None                Fe2Re3
+pool_60_1: aflow:2b4dc99fc1b2bd58   P4_{1}32 #213,P4_{1}32 #213                                           None
+pool_60_2: aflow:93420ea85fa73bad   P4_{1}32 #213,P4_{1}32 #213                                           None
+pool_60_3: aflow:c8efc5d67c1a7787   P4_{1}32 #213,P4_{1}32 #213                                           None
+pool_60_4: aflow:359e17150a0805c8   P4_{1}32 #213,P4_{1}32 #213                                           None
+pool_60_5: aflow:504d6be47eab06f4   P4_{1}32 #213,P4_{1}32 #213                                           None
+pool_60_6: aflow:753ff9e8a902e3c0   P4_{1}32 #213,P4_{1}32 #213                                           None
+pool_60_7: aflow:eb9df73563a5e73c   P4_{1}32 #213,P4_{1}32 #213                                           None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_60: Fe2Re3  mp-639789             	DFT-DFT  	SV     	16.8840    	aflow:2b4dc99fc1b2bd58	16.9056       	0.0216
+pool_61_0: mp-980203                Pm-3m #221                                                            None                TiOs3
+pool_61_1: aflow:51993a19af05300c   Pm-3m #221,Pm-3m #221                                                 None
+pool_61_2: aflow:1526c0bb56a6628c   Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_61: TiOs3   mp-980203             	DFT-DFT  	SV     	17.4799    	aflow:51993a19af05300c	17.5265       	0.0466
+pool_62_0: mp-1263                  Pm-3m #221                                                            None                  URu3
+pool_62_1: aflow:cd335767e53fce83   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([3, 4]), 'LDAUJ': array([0, 0])}
+pool_62_2: aflow:2c3007de7fb56080   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([3, 4]), 'LDAUJ': array([0, 0])}
+pool_62_3: aflow:0037193b0f247419   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([3, 4]), 'LDAUJ': array([0, 0])}
+pool_62_4: aflow:8dda739dcf260b3d   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([3, 4]), 'LDAUJ': array([0, 0])}
+pool_62_5: aflow:f2a7210558085625   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([3, 4]), 'LDAUJ': array([0, 0])}
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_62: URu3    mp-1263               	DFT-HUB  	SV     	14.0310    	aflow:f2a7210558085625	13.9714       	0.0596
+pool_63_0: mp-1017542               Pm-3m #221                                                            None               ZrOs3
+pool_63_1: aflow:23cd8b611fe7dba2   Pm-3m #221,Pm-3m #221                                                 None
+pool_63_2: aflow:08f5a45daabaa5d3   Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_63: ZrOs3   mp-1017542            	DFT-DFT  	SV     	17.2180    	aflow:23cd8b611fe7dba2	17.3110       	0.0930
+pool_64_0: mp-372                   Pm-3m #221                                                            None                   VPt3
+pool_64_1: aflow:4814827b26e4bc0a   Pm-3m #221,Pm-3m #221                                                 None
+pool_64_2: aflow:c749ceb4bfdfa3d1   Pnma #62,Pm-3m #221                                                   None
+pool_64_3: aflow:e434fa4cc610b9ff   Pm-3m #221,Pm-3m #221                                                 None
+pool_64_4: aflow:3c7bd59278791829   Pm-3m #221,Pm-3m #221                                                 None
+pool_64_5: aflow:a0631ca130a41869   P4/mmm #123,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_64: VPt3    mp-372                	DFT-DFT  	SV     	17.4747    	aflow:e434fa4cc610b9ff	17.5134       	0.0387
+pool_65_0: mp-30858                 Pm-3m #221                                                            None                 ZrPt3
+pool_65_1: aflow:c533942fade15945   Pm-3m #221,Pm-3m #221                                                 None
+pool_65_2: aflow:b3e1723f071bfaca   Pnma #62,Pm-3m #221                                                   None
+pool_65_3: aflow:0802a2f5c76ed110   Pm-3m #221,Pm-3m #221                                                 None
+pool_65_4: aflow:45f0f4e682511fc5   Cmmm #65,Pm-3m #221                                                   None
+pool_65_5: aflow:f15e8783117a146b   Pm-3m #221,Pm-3m #221                                                 None
+pool_65_6: aflow:c9ea265e15fa59f9   P4/mmm #123,Pm-3m #221                                                None
+pool_65_7: aflow:3e79962baf76b139   Pmm2 #25,Pm-3m #221                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_65: ZrPt3   mp-30858              	DFT-DFT  	SV     	16.8310    	aflow:45f0f4e682511fc5	16.8820       	0.0510
+pool_66_0: mp-30788                 Pm-3n #223                                                            None                 SnMo3
+pool_66_1: aflow:928eb45d400dd565   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_66: SnMo3   mp-30788              	DFT-DFT  	SV     	10.0137    	aflow:928eb45d400dd565	10.0379       	0.0242
+pool_67_0: mp-30866                 P6_3/mmc #194                                                         None                 Rh3W
+pool_67_1: aflow:d9d693eff729b9c9   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_67_2: aflow:ecb6c4153cc6dc48   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_67_3: aflow:58a9d7211c7ad5e6   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_67_4: aflow:9201df0e9525170e   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_67_5: aflow:6b03f21253b5420c   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_67: Rh3W    mp-30866              	DFT-DFT  	SV     	14.0909    	aflow:ecb6c4153cc6dc48	14.1434       	0.0525
+pool_68_0: mp-11456                 P6_3/mmc #194                                                         None                 HfPt3
+pool_68_1: aflow:036694eeec81ee2e   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_68_2: aflow:2f89b5a31f6b4876   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_68_3: aflow:0ff1e15bc5d7cbd5   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_68_4: aflow:c91b3930017dcc35   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_68_5: aflow:426ebf21e2929156   Cmcm #63,P6_{3}/mmc #194                                              None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_68: HfPt3   mp-11456              	DFT-DFT  	SV     	19.2632    	aflow:2f89b5a31f6b4876	19.3547       	0.0915
+pool_69_0: mp-1044                  Pm-3m #221                                                            None                  UIr3
+pool_69_1: aflow:9af60c5a7274d323   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([2.8, 4. ]), 'LDAUJ': array([0, 0])}
+pool_69_2: aflow:a6469c0a257002e5   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([2.8, 4. ]), 'LDAUJ': array([0, 0])}
+pool_69_3: aflow:48fceb3cd9dbb32c   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([2.8, 4. ]), 'LDAUJ': array([0, 0])}
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_69: UIr3    mp-1044               	DFT-HUB  	SV     	20.3431    	aflow:48fceb3cd9dbb32c	20.4763       	0.1332
+pool_70_0: mp-952                   Immm #71                                                              None                   MoPt2
+pool_70_1: aflow:8e91addb62262c6f   Pnnm #58,Immm #71                                                     None
+pool_70_2: aflow:9b56962db156bc4d   Immm #71,Immm #71                                                     None
+pool_70_3: aflow:1e8159ac7f624b57   Immm #71,Immm #71                                                     None
+pool_70_4: aflow:c4f05a6639ab94e5   Pnnm #58,Immm #71                                                     None
+pool_70_5: aflow:0c6090f3b95fc731   Immm #71,Immm #71                                                     None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_70: MoPt2   mp-952                	DFT-DFT  	SV     	17.3901    	aflow:8e91addb62262c6f	17.4382       	0.0481
+pool_71_0: mp-1655                  Fd-3m #227                                                            None                  UIr2
+pool_71_1: aflow:f958850a678420df   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([2.8, 4. ]), 'LDAUJ': array([0, 0])}
+pool_71_2: aflow:22c14d63dddf2834   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([2.8, 4. ]), 'LDAUJ': array([0, 0])}
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_71: UIr2    mp-1655               	DFT-HUB  	SV     	19.3442    	aflow:f958850a678420df	19.0574       	0.2868
+pool_72_0: mp-12107                 Pm-3m #221                                                            None                 TiPt3
+pool_72_1: aflow:494c856409166347   Pm-3m #221,Pm-3m #221                                                 None
+pool_72_2: aflow:b9c984f37dbeb7c2   Pnma #62,Pm-3m #221                                                   None
+pool_72_3: aflow:0f69644b17d989b9   Pm-3m #221,Pm-3m #221                                                 None
+pool_72_4: aflow:8e7a28d1e75e97b4   Pm-3m #221,Pm-3m #221                                                 None
+pool_72_5: aflow:88712a6f9104a596   P4/mmm #123,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_72: TiPt3   mp-12107              	DFT-DFT  	SV     	17.0331    	aflow:8e7a28d1e75e97b4	17.0399       	0.0068
+pool_73_0: mp-2263                  Fd-3m #227                                                            None                  ScIr2
+pool_73_1: aflow:18db74dff4f24851   Fd-3m #227,Fd-3m #227                                                 None
+pool_73_2: aflow:cce08ae27f1411d8   Fd-3m #227,Fd-3m #227                                                 None
+pool_73_3: aflow:cac09d457235eb3a   Fd-3m #227,Fd-3m #227                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_73: ScIr2   mp-2263               	DFT-DFT  	SV     	14.0055    	aflow:cac09d457235eb3a	14.0402       	0.0347
+pool_74_0: mp-1458                  Pm-3n #223                                                            None                  Nb3Ir
+pool_74_1: aflow:3b654d3ce18c5f24   Pm-3n #223,Pm-3n #223                                                 None
+pool_74_2: aflow:78a1a5045d4428e3   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_74: Nb3Ir   mp-1458               	DFT-DFT  	SV     	11.2280    	aflow:3b654d3ce18c5f24	11.3701       	0.1421
+pool_75_0: mp-1018054               Pm-3m #221                                                            None               HfPt3
+pool_75_1: aflow:730f4ecaf775c78d   Cmmm #65,Pm-3m #221                                                   None
+pool_75_2: aflow:81b353bc6994bc11   Pm-3m #221,Pm-3m #221                                                 None
+pool_75_3: aflow:b840dbcee9ffc389   Pm-3m #221,Pm-3m #221                                                 None
+pool_75_4: aflow:3dfad29e452da747   Pmm2 #25,Pm-3m #221                                                   None
+pool_75_5: aflow:1c5ed4df71e10046   P4/mmm #123,Pm-3m #221                                                None
+pool_75_6: aflow:963c6353fd78c7b9   Pnma #62,Pm-3m #221                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_75: HfPt3   mp-1018054            	DFT-DFT  	SV     	19.3265    	aflow:730f4ecaf775c78d	19.3556       	0.0291
+pool_76_0: mp-875                   Pm-3m #221                                                            None                   AlOs
+pool_76_1: aflow:747c695bfb5c1fbd   P2_{1}/m #11,Pm-3m #221                                               None
+pool_76_2: aflow:9bc0695fc3955cd3   Pm-3m #221,Pm-3m #221                                                 None
+pool_76_3: aflow:335aeb81c85ee9cd   P4/nmm #129,Pm-3m #221                                                None
+pool_76_4: aflow:f6e4db5432cd3ad8   Pm-3m #221,Pm-3m #221                                                 None
+pool_76_5: aflow:0187858f52f61918   P4/mmm #123,Pm-3m #221                                                None
+pool_76_6: aflow:842d8e3e0f540c57   Pmma #51,Pm-3m #221                                                   None
+pool_76_7: aflow:31169969596f21f3   P2_{1}/m #11,Pm-3m #221                                               None
+pool_76_8: aflow:a4654af35e189b86   P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_76: AlOs    mp-875                	DFT-DFT  	SV     	13.1216    	aflow:31169969596f21f3	13.1164       	0.0052
+pool_77_0: mp-12585                 Pm-3m #221                                                            None                 CrRh3
+pool_77_1: aflow:25fa9b15b1be2cf8   Pm-3m #221,Pm-3m #221                                                 None
+pool_77_2: aflow:bffedeaa7308511c   Pm-3m #221,Pm-3m #221                                                 None
+pool_77_3: aflow:37f19ed6a7bc0d7c   P4/mmm #123,Pm-3m #221                                                None
+pool_77_4: aflow:e6d4b23b3e5eeba2   Pm-3m #221,Pm-3m #221                                                 None
+pool_77_5: aflow:edf4ef0a6c9697f2   Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_77: CrRh3   mp-12585              	DFT-DFT  	SV     	10.8455    	aflow:edf4ef0a6c9697f2	10.9050       	0.0595
+pool_78_0: mp-542569                Pm-3m #221                                                            None                AlRu
+pool_78_1: aflow:3f5c420fa5154749   P2_{1}/m #11,Pm-3m #221                                               None
+pool_78_2: aflow:6b34194d10c862d0   P4/nmm #129,Pm-3m #221                                                None
+pool_78_3: aflow:d911b0420572a0d2   Pm-3m #221,Pm-3m #221                                                 None
+pool_78_4: aflow:1224ed3165da290d   P4/mmm #123,Pm-3m #221                                                None
+pool_78_5: aflow:b17ab257c36a84dd   Pnma #62,Pm-3m #221                                                   None
+pool_78_6: aflow:3dd5a18772437f39   Pm-3m #221,Pm-3m #221                                                 None
+pool_78_7: aflow:57b845dc5a44ebb8   Pmma #51,Pm-3m #221                                                   None
+pool_78_8: aflow:80fd474b924f683b   P2_{1}/m #11,Pm-3m #221                                               None
+pool_78_9: aflow:506ac80eff249170   P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_78: AlRu    mp-542569             	DFT-DFT  	SV     	7.8325     	aflow:6b34194d10c862d0	7.8324        	0.0001
+pool_79_0: mp-1578                  Pm-3n #223                                                            None                  V3Rh
+pool_79_1: aflow:70db2770296ed5c3   Pm-3n #223,Pm-3n #223                                                 None
+pool_79_2: aflow:20c6d07aff3bbffe   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_79: V3Rh    mp-1578               	DFT-DFT  	SV     	7.7623     	aflow:20c6d07aff3bbffe	7.7971        	0.0348
+pool_80_0: mp-214                   Pm-3m #221                                                            None                   ZrRu
+pool_80_1: aflow:1492c450d1bdf3b6   Pmmn #59,Pm-3m #221                                                   None
+pool_80_2: aflow:519e6e9d0818ff50   P2_{1}/m #11,Pm-3m #221                                               None
+pool_80_3: aflow:f49882c3ef54bb5f   P2_{1}/m #11,Pm-3m #221                                               None
+pool_80_4: aflow:cf389666e3648346   P4/nmm #129,Pm-3m #221                                                None
+pool_80_5: aflow:6f480458881b636c   Pm-3m #221,Pm-3m #221                                                 None
+pool_80_6: aflow:c6c2a61c30e8d568   P4/mmm #123,Pm-3m #221                                                None
+pool_80_7: aflow:93fcada0a030ba89   Pnma #62,Pm-3m #221                                                   None
+pool_80_8: aflow:cb9cd2f8cc03b408   Pm-3m #221,Pm-3m #221                                                 None
+pool_80_9: aflow:9758657393acd282   Pmma #51,Pm-3m #221                                                   None
+pool_80_10: aflow:13eb00aff16a5961  P4/nmm #129,Pm-3m #221                                                None
+pool_80_11: aflow:19c9adfd1ce357f7  Cmmm #65,Pm-3m #221                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_80: ZrRu    mp-214                	DFT-DFT  	SV     	9.0294     	aflow:f49882c3ef54bb5f	9.0632        	0.0338
+pool_81_0: mp-1585                  Pm-3n #223                                                            None                  V3Co
+pool_81_1: aflow:48683e4fdf2b0f72   Pm-3n #223,Pm-3n #223                                                 None
+pool_81_2: aflow:b7d9486dc48bce01   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_81: V3Co    mp-1585               	DFT-DFT  	SV     	6.9850     	aflow:b7d9486dc48bce01	7.0036        	0.0186
+pool_82_0: mp-494                   Pm-3n #223                                                            None                   GeMo3
+pool_82_1: aflow:2475559a69bc66fe   Pm-3n #223,Pm-3n #223                                                 None
+pool_82_2: aflow:0b939328742a72e2   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_82: GeMo3   mp-494                	DFT-DFT  	SV     	9.7407     	aflow:0b939328742a72e2	9.7371        	0.0036
+pool_83_0: mp-11517                 Pm-3m #221                                                            None                 NbRu3
+pool_83_1: aflow:38f3f1928c90b378   Pm-3m #221,Pm-3m #221                                                 None
+pool_83_2: aflow:c72822117a1f69b0   Pm-3m #221,Pm-3m #221                                                 None
+pool_83_3: aflow:37226ed0993b70d4   Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_83: NbRu3   mp-11517              	DFT-DFT  	SV     	11.0100    	aflow:c72822117a1f69b0	11.0645       	0.0545
+pool_84_0: mp-1129                  Pm-3m #221                                                            None                  ScIr
+pool_84_1: aflow:eeffe9740679bcb8   Pm-3m #221,Pm-3m #221                                                 None
+pool_84_2: aflow:b971659669544aa1   P2_{1}/m #11,Pm-3m #221                                               None
+pool_84_3: aflow:b327bcefb8bf0094   P4/nmm #129,Pm-3m #221                                                None
+pool_84_4: aflow:6506f2307f631425   Pm-3m #221,Pm-3m #221                                                 None
+pool_84_5: aflow:2b7c128d62a1fa49   P4/mmm #123,Pm-3m #221                                                None
+pool_84_6: aflow:6c5543716232a90f   Pmma #51,Pm-3m #221                                                   None
+pool_84_7: aflow:9119d4f773a344e8   P2_{1}/m #11,Pm-3m #221                                               None
+pool_84_8: aflow:733f83c8b79b5d3f   P4/nmm #129,Pm-3m #221                                                None
+pool_84_9: aflow:452aed5e94ce498c   Cmmm #65,Pm-3m #221                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_84: ScIr    mp-1129               	DFT-DFT  	SV     	11.6599    	aflow:452aed5e94ce498c	11.6912       	0.0313
+pool_85_0: mp-2053                  Pm-3n #223                                                            None                  Nb3Sb
+pool_85_1: aflow:64a4658cc23869e6   Pm-3n #223,Pm-3n #223                                                 None
+pool_85_2: aflow:6f806e24d1380bc9   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_85: Nb3Sb   mp-2053               	DFT-DFT  	SV     	8.8734     	aflow:64a4658cc23869e6	8.9925        	0.1191
+pool_86_0: mp-17615                 I4/mcm #140                                                           None                 Ta5Ge3
+pool_86_1: aflow:805c17fdce63991a   I4/mcm #140,I4/mcm #140                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_86: Ta5Ge3  mp-17615              	DFT-DFT  	SV     	13.8591    	aflow:805c17fdce63991a	13.8551       	0.0040
+pool_87_0: mp-30741                 Pm-3m #221                                                            None                 PaIr3
+pool_87_1: aflow:6a5764c23dd260e3   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.8, 0. ]), 'LDAUJ': array([0, 0])}
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_87: PaIr3   mp-30741              	DFT-HUB  	SV     	19.6220    	aflow:6a5764c23dd260e3	20.0327       	0.4107
+pool_88_0: mp-11272                 P4/mbm #127                                                           None                 Be2Nb3
+pool_88_1: aflow:6ed0be4071acb282   P4/mbm #127,P4/mbm #127                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_88: Be2Nb3  mp-11272              	DFT-DFT  	SV     	6.8532     	aflow:6ed0be4071acb282	6.9267        	0.0735
+pool_89_0: mp-999502                Pmma #51                                                              None                MoPt
+pool_89_1: aflow:00943bf4bc8e8c0d   P2_{1}/m #11,Pmma #51                                                 None
+pool_89_2: aflow:266bbebb8280d50d   P2_{1}/m #11,Pmma #51                                                 None
+pool_89_3: aflow:ef2dd578249754df   Pmma #51,Pmma #51                                                     None
+pool_89_4: aflow:f69fa13daf5fcd37   P2_{1}/m #11,Pmma #51                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_89: MoPt    mp-999502             	DFT-DFT  	SV     	15.6383    	aflow:266bbebb8280d50d	15.6705       	0.0322
+pool_90_0: mp-2211                  Pm-3n #223                                                            None                  V3Pt
+pool_90_1: aflow:343112c326df7745   Pm-3n #223,Pm-3n #223                                                 None
+pool_90_2: aflow:c352f62ea80c8395   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_90: V3Pt    mp-2211               	DFT-DFT  	SV     	10.3495    	aflow:c352f62ea80c8395	10.3672       	0.0177
+pool_91_0: mp-1018166               I4/mmm #139                                                           None               AlTc2
+pool_91_1: aflow:dfd20f57009c4b1b   I4/mmm #139,I4/mmm #139                                               None
+pool_91_2: aflow:1a657d1712a57aa9   I4/mmm #139,I4/mmm #139                                               None
+pool_91_3: aflow:af432545299100b9   C2/m #12,I4/mmm #139                                                  None
+pool_91_4: aflow:b62ef4cae2bb32d3   I4/mmm #139,I4/mmm #139                                               None
+pool_91_5: aflow:572b1f994b021915   Pnnm #58,I4/mmm #139                                                  None
+pool_91_6: aflow:a1540730befb0b1c   C2/m #12,I4/mmm #139                                                  None
+pool_91_7: aflow:4e6258a2f505621a   I4/mmm #139,I4/mmm #139                                               None
+pool_91_8: aflow:07654ae1a4dc7c62   Immm #71,I4/mmm #139                                                  None
+pool_91_9: aflow:49dfbdc535bbf05a   Pnnm #58,I4/mmm #139                                                  None
+pool_91_10: aflow:45c8589ab82a2560  Immm #71,I4/mmm #139                                                  None
+pool_91_11: aflow:dc63907a3bdaa72d  I4/mmm #139,I4/mmm #139                                               None
+pool_91_12: aflow:c3054248b2ed3a7d  Cmcm #63,I4/mmm #139                                                  None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_91: AlTc2   mp-1018166            	DFT-DFT  	SV     	8.6635     	aflow:dc63907a3bdaa72d	8.7465        	0.0830
+pool_92_0: mp-1251                  P4/mmm #123                                                           None                  VRh
+pool_92_1: aflow:b7f630e01742b366   P4/nmm #129,P4/mmm #123                                               None
+pool_92_2: aflow:3782e2b6b10f7df2   P4/mmm #123,P4/mmm #123                                               None
+pool_92_3: aflow:b6ce65c8758a3e52   P4/mmm #123,P4/mmm #123                                               None
+pool_92_4: aflow:5340e63dbae35030   P4/nmm #129,P4/mmm #123                                               None
+pool_92_5: aflow:6510252badc349f9   Cmmm #65,P4/mmm #123                                                  None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_92: VRh     mp-1251               	DFT-DFT  	SV     	9.2694     	aflow:6510252badc349f9	9.2850        	0.0156
+pool_93_0: mp-2377                  Pm-3n #223                                                            None                  GaMo3
+pool_93_1: aflow:6e431b9d8ae64710   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_93: GaMo3   mp-2377               	DFT-DFT  	SV     	9.6338     	aflow:6e431b9d8ae64710	9.6482        	0.0144
+pool_94_0: mp-1025397               P2_13 #198                                                            None               GeRu
+pool_94_1: aflow:483634103c2c7400   P2_{1}3 #198,P2_{1}3 #198                                             None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_94: GeRu    mp-1025397            	DFT-DFT  	SV     	9.8266     	aflow:483634103c2c7400	9.7859        	0.0407
+pool_95_0: mp-1395                  Pm-3m #221                                                            None                  VRu
+pool_95_1: aflow:2cec2ab7728f2845   P4/nmm #129,Pm-3m #221                                                None
+pool_95_2: aflow:e483b97439e1ed92   Pm-3m #221,Pm-3m #221                                                 None
+pool_95_3: aflow:1c0a1cce4952167b   P4/mmm #123,Pm-3m #221                                                None
+pool_95_4: aflow:a3a75619f0efde47   Pm-3m #221,Pm-3m #221                                                 None
+pool_95_5: aflow:81e7afc6081ba6a5   P4/mmm #123,Pm-3m #221                                                None
+pool_95_6: aflow:9ff98b08866c8880   P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_95: VRu     mp-1395               	DFT-DFT  	SV     	9.2129     	aflow:9ff98b08866c8880	9.2451        	0.0322
+pool_96_0: mp-2540                  Pm-3m #221                                                            None                  VTc
+pool_96_1: aflow:eaeb943de52b20ae   Pm-3m #221,Pm-3m #221                                                 None
+pool_96_2: aflow:82f9dcc75162e550   P2_{1}/m #11,Pm-3m #221                                               None
+pool_96_3: aflow:cbe27945ef2201b9   P4/nmm #129,Pm-3m #221                                                None
+pool_96_4: aflow:1cf2bbb2ca7d878b   Pm-3m #221,Pm-3m #221                                                 None
+pool_96_5: aflow:d968e1fe5ee2eb3c   P4/mmm #123,Pm-3m #221                                                None
+pool_96_6: aflow:563563c86333087b   Pmma #51,Pm-3m #221                                                   None
+pool_96_7: aflow:200400958be9175f   P2_{1}/m #11,Pm-3m #221                                               None
+pool_96_8: aflow:c5620ba8864a8211   P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_96: VTc     mp-2540               	DFT-DFT  	SV     	8.9264     	aflow:82f9dcc75162e550	8.9616        	0.0352
+pool_97_0: mp-715                   Fd-3m #227                                                            None                   ZrIr2
+pool_97_1: aflow:7b0fdd5e407b52a7   Fd-3m #227,Fd-3m #227                                                 None
+pool_97_2: aflow:7efec2057196f9dd   Fd-3m #227,Fd-3m #227                                                 None
+pool_97_3: aflow:91b34c5e8f2b5cdb   Fd-3m #227,Fd-3m #227                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_97: ZrIr2   mp-715                	DFT-DFT  	SV     	15.3597    	aflow:91b34c5e8f2b5cdb	15.3808       	0.0211
+pool_98_0: mp-1885                  Pm-3m #221                                                            None                  AlIr
+pool_98_1: aflow:0fbeee1a55af7cec   P2_{1}/m #11,Pm-3m #221                                               None
+pool_98_2: aflow:0e203071be4e4a62   P2_{1}/m #11,Pm-3m #221                                               None
+pool_98_3: aflow:b1a8a3671fec23f4   P4/nmm #129,Pm-3m #221                                                None
+pool_98_4: aflow:d36ae3daa0f9b3b9   Pm-3m #221,Pm-3m #221                                                 None
+pool_98_5: aflow:d442f54a082bced3   P4/mmm #123,Pm-3m #221                                                None
+pool_98_6: aflow:c0d9f74bbf236685   Pm-3m #221,Pm-3m #221                                                 None
+pool_98_7: aflow:bb52c324ba26a82d   Pmma #51,Pm-3m #221                                                   None
+pool_98_8: aflow:c8c11633410b33f2   P2_{1}/m #11,Pm-3m #221                                               None
+pool_98_9: aflow:224962925c3babc9   P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_98: AlIr     mp-1885               	DFT-DFT  	SV     	13.2449    	aflow:224962925c3babc9	13.2423       	0.0026
+pool_99_0: mp-11541                 Pm-3m #221                                                            None                 ZrOs
+pool_99_1: aflow:e34003a65883f98c   Pmmn #59,Pm-3m #221                                                   None
+pool_99_2: aflow:51c7ec4a53d3343f   Pm-3m #221,Pm-3m #221                                                 None
+pool_99_3: aflow:86c47ff28c800f87   P2_{1}/m #11,Pm-3m #221                                               None
+pool_99_4: aflow:dbab6d9446093f70   P4/nmm #129,Pm-3m #221                                                None
+pool_99_5: aflow:0c36c0c64b36f796   Pm-3m #221,Pm-3m #221                                                 None
+pool_99_6: aflow:017277d9f0b42343   P4/mmm #123,Pm-3m #221                                                None
+pool_99_7: aflow:d97ccbf64e712d87   Pmma #51,Pm-3m #221                                                   None
+pool_99_8: aflow:19dad8a0ebd2c1c8   P2_{1}/m #11,Pm-3m #221                                               None
+pool_99_9: aflow:d1af7363816ef523   P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_99: ZrOs     mp-11541              	DFT-DFT  	SV     	13.1189    	aflow:86c47ff28c800f87	13.1367       	0.0178
+
