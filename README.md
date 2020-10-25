@@ -6,9 +6,16 @@ Marquez Chavez, J. and Kiefer, B., "MATCOR, a program for the cross-validation o
 
 The implemented search strategy avoids the usage of ICSD tags. Instead, MATCOR searches for consistent compositions and space group to reduce the number of structure comparisons. This creates a pool of materials to the refinment of the comparison. After sorting this pool by magnitude difference between the proprty between reference and target database, MATCOR first attempts in a first pass a Hubbard-U consistent verification. If this fails in-consistent Hubbard-U verification is permitted. As a last step to avoid false positive materials verification, MATCOR uses the structure matcher utility available through pymatgen (https://pymatgen.org/).
 
-In this repository you find the source code and examples that we used to test MATCOR. 
+In this repository you find the source code (MATCOR.py) and examples that we used to test MATCOR. 
+
+
+Quickstart
 To execute the program all you need is a list of valid materials identifiers ("reference_id_list") in AFLOW or Materials Project. Change the header of the python 3.8+ "MATCOR.py" script to match your needs, and specify a outputfile name "result_file". Simply execute within the pymatgen environment:
 
 python3 MATCOR.py reference_id_list result_file
 
-If you have any suggestions of feedback, please reach out to us. 
+Files and user edits:
+densitygit: base_property_MP_1 = 'density', base_property_MP_2 = '', base_property_AFLOW = 'density'
+bandgapgit: base_property_MP_1 = 'band_gap', base_property_MP_2 = '', base_property_AFLOW = 'Egap'
+
+
