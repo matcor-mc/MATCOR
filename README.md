@@ -10,6 +10,8 @@ In this repository you find the source code (MATCOR.py) and examples that we use
 
 
 Quickstart
+
+
 To execute the program all you need is a list of valid materials identifiers ("reference_id_list") in AFLOW or Materials Project. Change the header of the python 3.8+ "MATCOR.py" script to match your needs, and specify a outputfile name "result_file". Simply execute within the pymatgen environment:
 
 python3 MATCOR.py reference_id_list result_file
