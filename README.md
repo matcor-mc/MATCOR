@@ -18,6 +18,7 @@ Files and user edits:
 
 
 densitygit: base_property_MP_1 = 'density', base_property_MP_2 = '', base_property_AFLOW = 'density'
+
 bandgapgit: base_property_MP_1 = 'band_gap', base_property_MP_2 = '', base_property_AFLOW = 'Egap'
 
 
