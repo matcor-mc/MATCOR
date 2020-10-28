@@ -16,6 +16,7 @@ To execute the program all you need is a list of valid materials identifiers ("r
 
 python3 MATCOR.py reference_id_list result_file
 
+As an easy example, reference_id_list = test file, and result_file = outputexample, for the property of density.
 
 
 Files and user edits:
@@ -26,5 +27,7 @@ densitygit: base_property_MP_1 = 'density', base_property_MP_2 = '', base_proper
 bandgapgit: base_property_MP_1 = 'band_gap', base_property_MP_2 = '', base_property_AFLOW = 'Egap'
 
 GVRHgit: base_property_MP_1 = 'elasticity', base_property_MP_2 = 'G_VRH', base_property_AFLOW = 'ael_shear_modulus_vrh'
+
+
 
 
