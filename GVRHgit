@@ -1,0 +1,991 @@
+MATCOR: A Program for the Cross-Validation of Material Properties Between Databases
+
+SV == Structure VERIFIED with pymatgen structure matcher
+NSV == Structure NOT VERIFIED with pymatgen structure matcher
+HUB == Hubbard-U used
+DFT == Hubbard-U not used
+
+pool_0_0: mp-1017543               Pm-3m #221                                                            None               ZrPd3
+pool_0_1: aflow:a94cbd0169e5270f   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([3.6, 0. ]), 'LDAUJ': array([0, 0])}
+pool_0_2: aflow:6f31b68c4e51ca8d   Pm-3m #221,Pm-3m #221                                                 None
+pool_0_3: aflow:2517842dff79e375   Pnma #62,Pm-3m #221                                                   None
+pool_0_4: aflow:e33baf92d3701732   Cmmm #65,Pm-3m #221                                                   None
+pool_0_5: aflow:d713a33a1aa9f264   Pm-3m #221,Pm-3m #221                                                 None
+pool_0_6: aflow:9a651ffab2500133   P4/mmm #123,Pm-3m #221                                                None
+pool_0_7: aflow:9f890ac752b64ec8   Pmm2 #25,Pm-3m #221                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_0: ZrPd3    mp-1017543            	DFT-HUB  	SV     	75.0000    	aflow:a94cbd0169e5270f	71.7182       	3.2818        
+pool_1_0: mp-1786                  Pm-3n #223                                                            None                  Ti3Au
+pool_1_1: aflow:5c8dc34637146756   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4. , 4.4]), 'LDAUJ': array([0, 0])}
+pool_1_2: aflow:2d21480245731503   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4. , 4.4]), 'LDAUJ': array([0, 0])}
+pool_1_3: aflow:fb504fd1bd5b78e5   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4. , 4.4]), 'LDAUJ': array([0, 0])}
+pool_1_4: aflow:106479469c9a4274   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4. , 4.4]), 'LDAUJ': array([0, 0])}
+pool_1_5: aflow:a1234bdefccf1f92   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4. , 4.4]), 'LDAUJ': array([0, 0])}
+pool_1_6: aflow:6809e154de355a4c   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4. , 4.4]), 'LDAUJ': array([0, 0])}
+pool_1_7: aflow:57e93e47f8b0b57f   Pm-3n #223,Pm-3n #223                                                 None
+pool_1_8: aflow:cb08eb3f994d5c32   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_1: Ti3Au    mp-1786               	DFT-HUB  	SV     	71.0000    	aflow:6809e154de355a4c	52.2827       	18.7173       
+pool_2_0: mp-22478                 P6/mmm #191                                                           None                 FeGe
+pool_2_1: aflow:ce45017fa6450d35   P6/mmm #191,P6/mmm #191                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([4.6, 0. ]), 'LDAUJ': array([0, 0])}
+pool_2_2: aflow:8d3dedd91a9c9c7b   P6/mmm #191,P6/mmm #191                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([4.6, 0. ]), 'LDAUJ': array([0, 0])}
+pool_2_3: aflow:35fcb3842de9cd64   P6/mmm #191,P6/mmm #191                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([4.6, 0. ]), 'LDAUJ': array([0, 0])}
+pool_2_4: aflow:538fcfad4c72c8c4   P6/mmm #191,P6/mmm #191                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([4.6, 0. ]), 'LDAUJ': array([0, 0])}
+pool_2_5: aflow:38b25959d5a0fa92   P6/mmm #191,P6/mmm #191                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([4.6, 0. ]), 'LDAUJ': array([0, 0])}
+pool_2_6: aflow:bf290af0aa9dee39   P6/mmm #191,P6/mmm #191                                               None
+pool_2_7: aflow:6df68f7cb91d9e0c   P6/mmm #191,P6/mmm #191                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_2: FeGe     mp-22478              	DFT-HUB  	SV     	73.0000    	aflow:ce45017fa6450d35	37.9770       	35.0230       
+pool_3_0: mp-2593                  Pm-3m #221                                                            None                  AlNi3
+pool_3_1: aflow:f009f32d967a9f6a   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_3_2: aflow:c3e3dafa4ec94a79   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_3_3: aflow:ae4a2cd2d468c675   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_3_4: aflow:e040077d39c2543e   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_3_5: aflow:a3375a139787074e   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_3_6: aflow:e3fccf506ba6979d   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_3_7: aflow:df184b8c88bbb746   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_3_8: aflow:10ba60fea1d575f9   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_3_9: aflow:b5d669ebff2c9158   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_3_10: aflow:273972248fcf825e  Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_3_11: aflow:c8a3c583be86c6a8  Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_3_12: aflow:064d9e6e8b1fd88b  Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_3_13: aflow:b6541b7a42552557  Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_3_14: aflow:0bc350876789c77a  Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_3_15: aflow:979a5090bb73e8de  Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_3_16: aflow:7003dd031d3054df  P4/mmm #123,Pm-3m #221                                                {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_3_17: aflow:af955b9d78ee2135  Pm-3m #221,Pm-3m #221                                                 None
+pool_3_18: aflow:103c03b42470ecc5  Pm-3m #221,Pm-3m #221                                                 None
+pool_3_19: aflow:ff2342ed02b99625  P4/mmm #123,Pm-3m #221                                                None
+pool_3_20: aflow:023a5836d3cba3e8  P4/mmm #123,Pm-3m #221                                                None
+pool_3_21: aflow:b17d452d976eff96  Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_3: AlNi3    mp-2593               	DFT-HUB  	SV     	85.0000    	aflow:b5d669ebff2c9158	56.0610       	28.9390       
+pool_4_0: mp-1007855               I4/mmm #139                                                           None               FeNi3
+pool_4_1: aflow:d093dcaf43b24466   I4/mmm #139,I4/mmm #139                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 5.1]), 'LDAUJ': array([0, 0])}
+pool_4_2: aflow:bcd69fdd2f2e1224   I4/mmm #139,I4/mmm #139                                               None
+pool_4_3: aflow:5d81513f99c1e6b3   Immm #71,I4/mmm #139                                                  None
+pool_4_4: aflow:69e41e3bdec0a652   I4/mmm #139,I4/mmm #139                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_4: FeNi3    mp-1007855            	DFT-HUB  	SV     	91.0000    	aflow:d093dcaf43b24466	None          	not a value
+pool_5_0: mp-1018067               Fm-3m #225                                                            None               CrFe3
+pool_5_1: aflow:08503f2a8f787404   Fm-3m #225,Fm-3m #225                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3.5, 4.6]), 'LDAUJ': array([0, 0])}
+pool_5_2: aflow:9d34649091d46487   Fm-3m #225,Fm-3m #225                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_5: CrFe3    mp-1018067            	DFT-HUB  	SV     	88.0000    	aflow:08503f2a8f787404	None          	not a value
+pool_6_0: mp-18427                 P4_2/mnm #136                                                         None                 Nb2Al
+pool_6_1: aflow:1c9969dc3e64e4a0   P4_{2}/mnm #136,P4_{2}/mnm #136                                       {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_6_2: aflow:c54eccc6719d3bfb   P4_{2}/mnm #136,P4_{2}/mnm #136                                       {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_6_3: aflow:1f23a6eb95618ed8   P4_{2}/mnm #136,P4_{2}/mnm #136                                       {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_6_4: aflow:ed23bc3c64106ad8   P4_{2}/mnm #136,P4_{2}/mnm #136                                       {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_6_5: aflow:7ae700e117ee1e47   P4_{2}/mnm #136,P4_{2}/mnm #136                                       {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_6_6: aflow:7a692dc01d3cdc8d   P4_{2}/mnm #136,P4_{2}/mnm #136                                       {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_6_7: aflow:e62d7ecc31e8409d   P4_{2}/mnm #136,P4_{2}/mnm #136                                       None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_6: Nb2Al    mp-18427              	DFT-HUB  	SV     	82.0000    	aflow:1c9969dc3e64e4a0	None          	not a value
+pool_7_0: mp-2090                  Pm-3m #221                                                            None                  FeCo
+pool_7_1: aflow:389faa6907124dd9   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 4.6]), 'LDAUJ': array([0, 0])}
+pool_7_2: aflow:fcc7860ad4cc9238   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 4.6]), 'LDAUJ': array([0, 0])}
+pool_7_3: aflow:b33d43e242df69b3   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 4.6]), 'LDAUJ': array([0, 0])}
+pool_7_4: aflow:014d8e3b1a6e86af   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 4.6]), 'LDAUJ': array([0, 0])}
+pool_7_5: aflow:81aed5c13038b3dc   P2_{1}/m #11,Pm-3m #221                                               None
+pool_7_6: aflow:1de34811f9e6f781   Pm-3m #221,Pm-3m #221                                                 None
+pool_7_7: aflow:2cb858d5c6c24c65   P4/mmm #123,Pm-3m #221                                                None
+pool_7_8: aflow:9a3754965016b3dc   Pm-3m #221,Pm-3m #221                                                 None
+pool_7_9: aflow:723681301c320bd8   Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_7: FeCo     mp-2090               	DFT-HUB  	SV     	91.0000    	aflow:389faa6907124dd9	None          	not a value
+pool_8_0: mp-21008                 Pm-3m #221                                                            None                 Ni3Ge
+pool_8_1: aflow:e073fa670c638d18   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_8_2: aflow:e0b38ebd476611fa   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_8_3: aflow:403cd801e561a515   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_8_4: aflow:d001d64933fdb1e4   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_8_5: aflow:00e0621e2789b352   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_8_6: aflow:3c2791ed0e0cd828   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_8_7: aflow:29c5ecd55420656e   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_8_8: aflow:8d6fc61749fa4a97   Pm-3m #221,Pm-3m #221                                                 None
+pool_8_9: aflow:7d0382cc8708cf57   Pm-3m #221,Pm-3m #221                                                 None
+pool_8_10: aflow:43bfebcda5837374  P4/mmm #123,Pm-3m #221                                                None
+pool_8_11: aflow:9e1a7414c1512f35  Pnma #62,Pm-3m #221                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_8: Ni3Ge    mp-21008              	DFT-HUB  	SV     	84.0000    	aflow:e073fa670c638d18	None          	not a value
+pool_9_0: mp-2213                  P4/mmm #123                                                           None                  FeNi
+pool_9_1: aflow:f36e839555c088dc   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 5.1]), 'LDAUJ': array([0, 0])}
+pool_9_2: aflow:5258b7f56bc2f233   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 5.1]), 'LDAUJ': array([0, 0])}
+pool_9_3: aflow:5f697f3a7e258779   P4/mmm #123,P4/mmm #123                                               None
+pool_9_4: aflow:17f1b0e9cd205d38   P4/mmm #123,P4/mmm #123                                               None
+pool_9_5: aflow:0827f5af5cfa8f6c   Cmmm #65,P4/mmm #123                                                  None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_9: FeNi     mp-2213               	DFT-HUB  	SV     	92.0000    	aflow:f36e839555c088dc	None          	not a value
+pool_10_0: mp-333                   Fd-3m #227                                                            None                   HfFe2
+pool_10_1: aflow:b719c228988f1aeb   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([4.6, 0. ]), 'LDAUJ': array([0, 0])}
+pool_10_2: aflow:c3e33343021641b9   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([4.6, 0. ]), 'LDAUJ': array([0, 0])}
+pool_10_3: aflow:e0cd07539f36c9d7   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([4.6, 0. ]), 'LDAUJ': array([0, 0])}
+pool_10_4: aflow:3d4d644a6b67978a   Fd-3m #227,Fd-3m #227                                                 None
+pool_10_5: aflow:5e683791e9215fdb   Fd-3m #227,Fd-3m #227                                                 None
+pool_10_6: aflow:035f1930c4215b6d   Fd-3m #227,Fd-3m #227                                                 None
+pool_10_7: aflow:1675af4f69dda26f   R32 #155,Fd-3m #227                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_10: HfFe2   mp-333                	DFT-HUB  	SV     	82.0000    	aflow:e0cd07539f36c9d7	55.5030       	26.4970       
+pool_11_0: mp-570673                P6/mmm #191                                                           None                ScNi5
+pool_11_1: aflow:71eb9ae1edc430fe   P6/mmm #191,P6/mmm #191                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5.1, 2.9]), 'LDAUJ': array([0, 0])}
+pool_11_2: aflow:0432f8be504644e9   P6/mmm #191,P6/mmm #191                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5.1, 2.9]), 'LDAUJ': array([0, 0])}
+pool_11_3: aflow:69d3f9ef55dcd065   P6/mmm #191,P6/mmm #191                                               None
+pool_11_4: aflow:14bcd4bcafc55bf7   P6/mmm #191,P6/mmm #191                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_11: ScNi5   mp-570673             	DFT-HUB  	SV     	78.0000    	aflow:71eb9ae1edc430fe	None          	not a value
+pool_12_0: mp-865611                Imm2 #44                                                              None                MgRh3
+pool_12_1: aflow:6050b912c93cf7d4   Imm2 #44,Imm2 #44                                                     None
+pool_12_2: aflow:43e3f5c2ee6790a1   Imm2 #44,Imm2 #44                                                     None
+pool_12_3: aflow:1a22950cf61557f8   Imm2 #44,Imm2 #44                                                     None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_12: MgRh3   mp-865611             	DFT-DFT  	SV     	85.0000    	aflow:6050b912c93cf7d4	None          	not a value
+pool_13_0: mp-11453                 P6_3/mmc #194                                                         None                 HfPd3
+pool_13_1: aflow:a7d12150761c9cee   P6_{3}/mmc #194,P6_{3}/mmc #194                                       {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 3.6]), 'LDAUJ': array([0, 0])}
+pool_13_2: aflow:a1cf5e4364eeb040   P6_{3}/mmc #194,P6_{3}/mmc #194                                       {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 3.6]), 'LDAUJ': array([0, 0])}
+pool_13_3: aflow:04baf9ec64c1a4b0   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_13_4: aflow:035c5f8451ff7779   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_13_5: aflow:b20fa5966f781184   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_13_6: aflow:9a1a3628c9d8a91d   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_13_7: aflow:c30bdcb47918cbc1   Cmcm #63,P6_{3}/mmc #194                                              None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_13: HfPd3   mp-11453              	DFT-HUB  	SV     	85.0000    	aflow:a1cf5e4364eeb040	80.0549       	4.9451        
+pool_14_0: mp-1358                  Fd-3m #227                                                            None                  DyIr2
+pool_14_1: aflow:7cb8e9e9facd592b   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([3, 2]), 'LDAUU': array([5.6, 2.8]), 'LDAUJ': array([0, 0])}
+pool_14_2: aflow:d5e8c6f070bae071   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([3, 2]), 'LDAUU': array([5.6, 2.8]), 'LDAUJ': array([0, 0])}
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_14: DyIr2   mp-1358               	DFT-HUB  	SV     	89.0000    	aflow:7cb8e9e9facd592b	88.4868       	0.5132        
+pool_15_0: mp-1418                  Pm-3m #221                                                            None                  FeNi3
+pool_15_1: aflow:41025cea81fe8323   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 5.1]), 'LDAUJ': array([0, 0])}
+pool_15_2: aflow:c4ff9a156fa25606   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 5.1]), 'LDAUJ': array([0, 0])}
+pool_15_3: aflow:e000b9760422e1cf   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 5.1]), 'LDAUJ': array([0, 0])}
+pool_15_4: aflow:9376eb839fe7ce4b   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 5.1]), 'LDAUJ': array([0, 0])}
+pool_15_5: aflow:3c1b96dd71b0982a   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 5.1]), 'LDAUJ': array([0, 0])}
+pool_15_6: aflow:a1e561024ef5ae1c   Pm-3m #221,Pm-3m #221                                                 None
+pool_15_7: aflow:5e9cfccab8b68dd6   Pm-3m #221,Pm-3m #221                                                 None
+pool_15_8: aflow:dfc94e8b06e094cd   Pm-3m #221,Pm-3m #221                                                 None
+pool_15_9: aflow:03d09ee7a6456a48   P4/mmm #123,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_15: FeNi3   mp-1418               	DFT-HUB  	SV     	96.0000    	aflow:41025cea81fe8323	None          	not a value
+pool_16_0: mp-1495                  Fd-3m #227                                                            None                  ErIr2
+pool_16_1: aflow:94af84d2b2d033a2   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.8]), 'LDAUJ': array([0, 0])}
+pool_16_2: aflow:daecdd65eee60ff6   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.8]), 'LDAUJ': array([0, 0])}
+pool_16_3: aflow:2e67ec776b02c2ba   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.8]), 'LDAUJ': array([0, 0])}
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_16: ErIr2   mp-1495               	DFT-HUB  	SV     	91.0000    	aflow:2e67ec776b02c2ba	90.9509       	0.0491        
+pool_17_0: mp-171                   I4/mmm #139                                                           None                   VNi3
+pool_17_1: aflow:12307ff1a2e5ae0b   I4/mmm #139,I4/mmm #139                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5.1, 2.7]), 'LDAUJ': array([0, 0])}
+pool_17_2: aflow:a76d581a7d869540   I4/mmm #139,I4/mmm #139                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5.1, 2.7]), 'LDAUJ': array([0, 0])}
+pool_17_3: aflow:360d309ca025c5dc   I4/mmm #139,I4/mmm #139                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5.1, 2.7]), 'LDAUJ': array([0, 0])}
+pool_17_4: aflow:4a2767a5fc9a0b9a   I4/mmm #139,I4/mmm #139                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5.1, 2.7]), 'LDAUJ': array([0, 0])}
+pool_17_5: aflow:02edaf001af7b83a   I4/mmm #139,I4/mmm #139                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5.1, 2.7]), 'LDAUJ': array([0, 0])}
+pool_17_6: aflow:75af2c9f6638deb8   I4/mmm #139,I4/mmm #139                                               None
+pool_17_7: aflow:5485e75f3522ad38   I4/mmm #139,I4/mmm #139                                               None
+pool_17_8: aflow:96638943449d62d0   I4/mmm #139,I4/mmm #139                                               None
+pool_17_9: aflow:98688eeac0c1b4e4   Immm #71,I4/mmm #139                                                  None
+pool_17_10: aflow:64657c970c98ee19  I4/mmm #139,I4/mmm #139                                               None
+pool_17_11: aflow:6bf8683ee7748231  Immm #71,I4/mmm #139                                                  None
+pool_17_12: aflow:116154af1e10a504  I4/mmm #139,I4/mmm #139                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_17: VNi3    mp-171                	DFT-HUB  	SV     	101.0000   	aflow:12307ff1a2e5ae0b	None          	not a value
+pool_18_0: mp-1761                  Fd-3m #227                                                            None                  LuIr2
+pool_18_1: aflow:281b1a764ef9cfd4   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([2.8, 4.8]), 'LDAUJ': array([0. , 0.9])}
+pool_18_2: aflow:0de15907838a9be4   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([2.8, 4.8]), 'LDAUJ': array([0. , 0.9])}
+pool_18_3: aflow:a817c89c75769a12   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([2.8, 4.8]), 'LDAUJ': array([0. , 0.9])}
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_18: LuIr2   mp-1761               	DFT-HUB  	SV     	92.0000    	aflow:281b1a764ef9cfd4	92.1875       	0.1875        
+pool_19_0: mp-2260                  P4/mmm #123                                                           None                  FePt
+pool_19_1: aflow:096a89a52ba166aa   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 3. ]), 'LDAUJ': array([0, 0])}
+pool_19_2: aflow:22c47ac336bf51df   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 3. ]), 'LDAUJ': array([0, 0])}
+pool_19_3: aflow:c201541c77c1ff9f   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 3. ]), 'LDAUJ': array([0, 0])}
+pool_19_4: aflow:a7fb9dd9368e94bc   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 3. ]), 'LDAUJ': array([0, 0])}
+pool_19_5: aflow:1b73dabe0a3348e7   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 3. ]), 'LDAUJ': array([0, 0])}
+pool_19_6: aflow:581ab1a386607ee3   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 3. ]), 'LDAUJ': array([0, 0])}
+pool_19_7: aflow:0310f9de696398bc   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 3. ]), 'LDAUJ': array([0, 0])}
+pool_19_8: aflow:2674c8b7a1f3aa77   P4/nmm #129,P4/mmm #123                                               None
+pool_19_9: aflow:91da6e03cd578251   P4/mmm #123,P4/mmm #123                                               None
+pool_19_10: aflow:6d9b7cc2dcfd7938  P4/mmm #123,P4/mmm #123                                               None
+pool_19_11: aflow:c5522f03d1d5afb4  P4/nmm #129,P4/mmm #123                                               None
+pool_19_12: aflow:c34000a278a9bc60  P4/mmm #123,P4/mmm #123                                               None
+pool_19_13: aflow:11ff097e696b5a32  Cmmm #65,P4/mmm #123                                                  None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_19: FePt    mp-2260               	DFT-HUB  	SV     	92.0000    	aflow:096a89a52ba166aa	None          	not a value
+pool_20_0: mp-2439                  F-43m #216                                                            None                  ZrNi5
+pool_20_1: aflow:737fa9ae95ce1b08   F-43m #216,F-43m #216                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([5.1, 0. ]), 'LDAUJ': array([0, 0])}
+pool_20_2: aflow:39dfad5b6a8490d7   F-43m #216,F-43m #216                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([5.1, 0. ]), 'LDAUJ': array([0, 0])}
+pool_20_3: aflow:3b0475cec189a1c7   F-43m #216,F-43m #216                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([5.1, 0. ]), 'LDAUJ': array([0, 0])}
+pool_20_4: aflow:826a52d3a799df04   F-43m #216,F-43m #216                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([5.1, 0. ]), 'LDAUJ': array([0, 0])}
+pool_20_5: aflow:f78eaa5b42389054   F-43m #216,F-43m #216                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([5.1, 0. ]), 'LDAUJ': array([0, 0])}
+pool_20_6: aflow:8f0cfbd4a3bbcc35   F-43m #216,F-43m #216                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([5.1, 0. ]), 'LDAUJ': array([0, 0])}
+pool_20_7: aflow:d11021d12aa83962   F-43m #216,F-43m #216                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([5.1, 0. ]), 'LDAUJ': array([0, 0])}
+pool_20_8: aflow:a71d59d4239d2f14   F-43m #216,F-43m #216                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([5.1, 0. ]), 'LDAUJ': array([0, 0])}
+pool_20_9: aflow:5fcc108fcfae44c3   F-43m #216,F-43m #216                                                 None
+pool_20_10: aflow:aa7431b3e1bf7d6f  F-43m #216,F-43m #216                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_20: ZrNi5   mp-2439               	DFT-HUB  	SV     	86.0000    	aflow:737fa9ae95ce1b08	None          	not a value
+pool_21_0: mp-2725                  Fd-3m #227                                                            None                  TbIr2
+pool_21_1: aflow:4ea3d3baf7d80a5d   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.8, 0. ]), 'LDAUJ': array([0, 0])}
+pool_21_2: aflow:b66e2406bb2d5610   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.8, 0. ]), 'LDAUJ': array([0, 0])}
+pool_21_3: aflow:b3cf3257eec95fbd   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.8, 0. ]), 'LDAUJ': array([0, 0])}
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_21: TbIr2   mp-2725               	DFT-HUB  	SV     	89.0000    	aflow:b3cf3257eec95fbd	87.6401       	1.3599        
+pool_22_0: mp-2802                  Pm-3m #221                                                            None                  HfRu
+pool_22_1: aflow:6f3e9a62beed10fe   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0, 3]), 'LDAUJ': array([0, 0])}
+pool_22_2: aflow:46deb57dc0204f37   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0, 3]), 'LDAUJ': array([0, 0])}
+pool_22_3: aflow:f8fd63375a531fdc   P2_{1}/m #11,Pm-3m #221                                               None
+pool_22_4: aflow:8bb4bb064fc6c0dc   P2_{1}/m #11,Pm-3m #221                                               None
+pool_22_5: aflow:a33304b8322f241b   P4/nmm #129,Pm-3m #221                                                None
+pool_22_6: aflow:6c116a4aad07bdd2   Pm-3m #221,Pm-3m #221                                                 None
+pool_22_7: aflow:bb0f0b93a768a787   Pm-3m #221,Pm-3m #221                                                 None
+pool_22_8: aflow:9be99b987edde021   P4/mmm #123,Pm-3m #221                                                None
+pool_22_9: aflow:9fbb058a3081be0e   Pmma #51,Pm-3m #221                                                   None
+pool_22_10: aflow:64a2094ca08fb87d  P2_{1}/m #11,Pm-3m #221                                               None
+pool_22_11: aflow:2008e87fa8c8c073  Cmmm #65,Pm-3m #221                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_22: HfRu    mp-2802               	DFT-HUB  	SV     	97.0000    	aflow:6f3e9a62beed10fe	104.2070      	7.2070        
+pool_23_0: mp-305                   Pm-3m #221                                                            None                   TiFe
+pool_23_1: aflow:7023093a9339a7f2   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 4.4]), 'LDAUJ': array([0, 0])}
+pool_23_2: aflow:bfec657d5642c96a   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 4.4]), 'LDAUJ': array([0, 0])}
+pool_23_3: aflow:52726c5acd114748   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 4.4]), 'LDAUJ': array([0, 0])}
+pool_23_4: aflow:ef7861e65965f01d   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 4.4]), 'LDAUJ': array([0, 0])}
+pool_23_5: aflow:5a670b4d513577ba   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 4.4]), 'LDAUJ': array([0, 0])}
+pool_23_6: aflow:87e01bb91706eafc   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 4.4]), 'LDAUJ': array([0, 0])}
+pool_23_7: aflow:bc2536da1795865a   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 4.4]), 'LDAUJ': array([0, 0])}
+pool_23_8: aflow:c939d7567a0393d4   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 4.4]), 'LDAUJ': array([0, 0])}
+pool_23_9: aflow:e59f0c2aed8aa193   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 4.4]), 'LDAUJ': array([0, 0])}
+pool_23_10: aflow:cd406f01c5b9d473  Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 4.4]), 'LDAUJ': array([0, 0])}
+pool_23_11: aflow:916cf37c083dc4d2  Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 4.4]), 'LDAUJ': array([0, 0])}
+pool_23_12: aflow:681c14d5f06d4275  Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 4.4]), 'LDAUJ': array([0, 0])}
+pool_23_13: aflow:4e2e73c313daa9b8  P4/nmm #129,Pm-3m #221                                                None
+pool_23_14: aflow:f3d02b437c05c9e9  Pm-3m #221,Pm-3m #221                                                 None
+pool_23_15: aflow:dc306ed5e8ae7d3c  P4/mmm #123,Pm-3m #221                                                None
+pool_23_16: aflow:8bd6c5ed047d421a  Pmma #51,Pm-3m #221                                                   None
+pool_23_17: aflow:c58ec30f0e06f57d  P2_{1}/m #11,Pm-3m #221                                               None
+pool_23_18: aflow:09edda922647c5e5  P4/nmm #129,Pm-3m #221                                                None
+pool_23_19: aflow:c89d5434d677dd51  Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_23: TiFe    mp-305                	DFT-HUB  	SV     	97.0000    	aflow:5a670b4d513577ba	129.4260      	not a value
+pool_24_0: mp-569516                F-43m #216                                                            None                HfNi5
+pool_24_1: aflow:c7d8056c9a1f3c2f   F-43m #216,F-43m #216                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 5.1]), 'LDAUJ': array([0, 0])}
+pool_24_2: aflow:5703fe522d999e52   F-43m #216,F-43m #216                                                 None
+pool_24_3: aflow:653d2ce7bcd7079d   F-43m #216,F-43m #216                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_24: HfNi5   mp-569516             	DFT-HUB  	SV     	86.0000    	aflow:c7d8056c9a1f3c2f	None          	not a value
+pool_25_0: mp-601842                Pm-3m #221                                                            None                Fe9Co7
+pool_25_1: aflow:10fe4122ab5dbf64   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 4.6]), 'LDAUJ': array([0, 0])}
+pool_25_2: aflow:7f73ffebb07b2d90   Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_25: Fe9Co7  mp-601842             	DFT-HUB  	SV     	97.0000    	aflow:10fe4122ab5dbf64	None          	not a value
+pool_26_0: mp-601848                P4/mmm #123                                                           None                Fe11Co5
+pool_26_1: aflow:16f2ce49b7c16174   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 4.6]), 'LDAUJ': array([0, 0])}
+pool_26_2: aflow:0b7d7cefb32bdbb5   P4/mmm #123,P4/mmm #123                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_26: Fe11Co5 mp-601848             	DFT-HUB  	SV     	98.0000    	aflow:16f2ce49b7c16174	None          	not a value
+pool_27_0: mp-636328                Pm-3m #221                                                            None                TiPd3
+pool_27_1: aflow:666cb37971d34bf6   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3.6, 4.4]), 'LDAUJ': array([0, 0])}
+pool_27_2: aflow:13447333c9aa3ade   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3.6, 4.4]), 'LDAUJ': array([0, 0])}
+pool_27_3: aflow:3c7a7afcf0199dfa   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3.6, 4.4]), 'LDAUJ': array([0, 0])}
+pool_27_4: aflow:d73b71383982090d   Pm-3m #221,Pm-3m #221                                                 None
+pool_27_5: aflow:2309f686765c065e   Pnma #62,Pm-3m #221                                                   None
+pool_27_6: aflow:809d0c47999c2709   Pm-3m #221,Pm-3m #221                                                 None
+pool_27_7: aflow:6a317048a816bd99   Pm-3m #221,Pm-3m #221                                                 None
+pool_27_8: aflow:fafe963b1842db06   P4/mmm #123,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_27: TiPd3   mp-636328             	DFT-HUB  	SV     	88.0000    	aflow:666cb37971d34bf6	70.8218       	17.1782
+pool_28_0: mp-641526                P4/mmm #123                                                           None                Fe13Co3
+pool_28_1: aflow:ec2b6ddc43eb9ca3   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 4.6]), 'LDAUJ': array([0, 0])}
+pool_28_2: aflow:8f766b123ff4c548   P4/mmm #123,P4/mmm #123                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_28: Fe13Co3  mp-641526             	DFT-HUB  	SV     	92.0000    	aflow:ec2b6ddc43eb9ca3	None          	not a value
+pool_29_0: mp-7226                  Pm-3n #223                                                            None                  V3Ni
+pool_29_1: aflow:05576849da787d02   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5.1, 2.7]), 'LDAUJ': array([0, 0])}
+pool_29_2: aflow:6ec469bdd10ef565   Pm-3n #223,Pm-3n #223                                                 None
+pool_29_3: aflow:39fb1b471c1500fa   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_29: V3Ni     mp-7226               	DFT-HUB  	SV     	93.0000    	aflow:05576849da787d02	None          	not a value
+pool_30_0: mp-7250                  R-3m #166                                                             None                  Nb6Co7
+pool_30_1: aflow:9895727e2b61a118   R-3m #166,R-3m #166                                                   {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_30_2: aflow:fd043d0df481dc28   R-3m #166,R-3m #166                                                   {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_30_3: aflow:ebd347b33f5bcca6   R-3m #166,R-3m #166                                                   {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_30_4: aflow:b80eb2e96b24a1eb   R-3m #166,R-3m #166                                                   None
+pool_30_5: aflow:a41d394b712449eb   R-3m #166,R-3m #166                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_30: Nb6Co7   mp-7250               	DFT-HUB  	SV     	95.0000    	aflow:9895727e2b61a118	None          	not a value
+pool_31_0: mp-818                   Pnma #62                                                              None                   SiRh
+pool_31_1: aflow:ccc0d48e87c8b5cf   Pnma #62,Pnma #62                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([3.3, 0. ]), 'LDAUJ': array([0, 0])}
+pool_31_2: aflow:1c7afa8630039067   Pnma #62,Pnma #62                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([3.3, 0. ]), 'LDAUJ': array([0, 0])}
+pool_31_3: aflow:55d654acc7ce25b0   Pnma #62,Pnma #62                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([3.3, 0. ]), 'LDAUJ': array([0, 0])}
+pool_31_4: aflow:fcbaf4f103336128   Pnma #62,Pnma #62                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([3.3, 0. ]), 'LDAUJ': array([0, 0])}
+pool_31_5: aflow:10f8f7cba11c292e   Pnma #62,Pnma #62                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([3.3, 0. ]), 'LDAUJ': array([0, 0])}
+pool_31_6: aflow:df7a2c1f7d8f400c   Pnma #62,Pnma #62                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([3.3, 0. ]), 'LDAUJ': array([0, 0])}
+pool_31_7: aflow:5c8a453fa503da33   Pnma #62,Pnma #62                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([3.3, 0. ]), 'LDAUJ': array([0, 0])}
+pool_31_8: aflow:ce43d529c91389eb   Pnma #62,Pnma #62                                                     None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_31: SiRh     mp-818                	DFT-HUB  	SV     	95.0000    	aflow:ccc0d48e87c8b5cf	None          	not a value
+pool_32_0: mp-866134                Fm-3m #225                                                            None                VFe3
+pool_32_1: aflow:05c826cccb796dc0   Fm-3m #225,Fm-3m #225                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_32: VFe3     mp-866134             	DFT-DFT  	SV     	90.0000    	aflow:05c826cccb796dc0	None          	not a value
+pool_33_0: mp-1009133               Pm-3m #221                                                            None               MnCo
+pool_33_1: aflow:ddf16b1a3e796f15   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5, 4]), 'LDAUJ': array([0, 0])}
+pool_33_2: aflow:e4cc0f193086a7b2   Pm-3m #221,Pm-3m #221                                                 None
+pool_33_3: aflow:5d41efe016bf579d   P2_{1}/m #11,Pm-3m #221                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_33: MnCo     mp-1009133            	DFT-HUB  	SV     	99.0000    	aflow:ddf16b1a3e796f15	None          	not a value
+pool_34_0: mp-1010071               Pm-3m #221                                                            None               CrCo
+pool_34_1: aflow:70189be7ddab0598   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 3.5]), 'LDAUJ': array([0, 0])}
+pool_34_2: aflow:472bf84cd79ac5d2   Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_34: CrCo     mp-1010071            	DFT-HUB  	SV     	105.0000   	aflow:70189be7ddab0598	None          	not a value
+pool_35_0: mp-11276                 Pm-3m #221                                                            None                 BeRh
+pool_35_1: aflow:0d4c2a40fe143a57   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 3.3]), 'LDAUJ': array([0, 0])}
+pool_35_2: aflow:237e289ecedb259f   P2_{1}/m #11,Pm-3m #221                                               None
+pool_35_3: aflow:60cda488cabbc2e7   P4/nmm #129,Pm-3m #221                                                None
+pool_35_4: aflow:a5aebddf52768641   Pm-3m #221,Pm-3m #221                                                 None
+pool_35_5: aflow:567e90f6df908ce0   Pm-3m #221,Pm-3m #221                                                 None
+pool_35_6: aflow:687c06a3f60a7bc0   P4/mmm #123,Pm-3m #221                                                None
+pool_35_7: aflow:10a7aafcdb53e3c9   Pnma #62,Pm-3m #221                                                   None
+pool_35_8: aflow:6411066942bf5403   Pmma #51,Pm-3m #221                                                   None
+pool_35_9: aflow:cfd953012f2b63cc   P2_{1}/m #11,Pm-3m #221                                               None
+pool_35_10: aflow:7a4209f0ebee994c  P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_35: BeRh     mp-11276              	DFT-HUB  	SV     	100.0000   	aflow:0d4c2a40fe143a57	92.2128       	7.7872
+pool_36_0: mp-11514                 Immm #71                                                              None                 NbPt2
+pool_36_1: aflow:64e5939b95330a2f   Immm #71,Immm #71                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.1, 3. ]), 'LDAUJ': array([0, 0])}
+pool_36_2: aflow:28b766f6785e06ed   Immm #71,Immm #71                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.1, 3. ]), 'LDAUJ': array([0, 0])}
+pool_36_3: aflow:ce559c62408c5b2d   C2/m #12,Immm #71                                                     None
+pool_36_4: aflow:20844b72cab4b620   Pnnm #58,Immm #71                                                     None
+pool_36_5: aflow:45f1beb4065e96f3   Immm #71,Immm #71                                                     None
+pool_36_6: aflow:63d4bcb77b70b396   C2/m #12,Immm #71                                                     None
+pool_36_7: aflow:383165a7e79fe09b   Immm #71,I4/mmm #139                                                  None
+pool_36_8: aflow:c876d8416724834f   Pnnm #58,Immm #71                                                     None
+pool_36_9: aflow:d615b48f01dd5d81   Immm #71,Immm #71                                                     None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_36: NbPt2    mp-11514              	DFT-HUB  	SV     	108.0000   	aflow:64e5939b95330a2f	98.5983       	9.4017
+pool_37_0: mp-12108                 Immm #71                                                              None                 VPt2
+pool_37_1: aflow:04e12001b1f2f1b1   Immm #71,Immm #71                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_37_2: aflow:213d43607a2b4d22   Immm #71,Immm #71                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_37_3: aflow:f2b54887dec376ac   Pnnm #58,Immm #71                                                     None
+pool_37_4: aflow:63c1e355cd190c27   C2/m #12,Immm #71                                                     None
+pool_37_5: aflow:10ddb73d285d6c64   Immm #71,Immm #71                                                     None
+pool_37_6: aflow:0f760129151eeab8   Pnnm #58,Immm #71                                                     None
+pool_37_7: aflow:b2f4ba1613d99618   Immm #71,Immm #71                                                     None
+pool_37_8: aflow:79cab0d070bcbce4   Immm #71,Immm #71                                                     None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_37: VPt2     mp-12108              	DFT-HUB  	SV     	114.0000   	aflow:04e12001b1f2f1b1	None          	not a value
+pool_38_0: mp-12778                 Pm-3m #221                                                            None                 VOs
+pool_38_1: aflow:ac232fbf28827cdb   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.6, 2.7]), 'LDAUJ': array([0, 0])}
+pool_38_2: aflow:eaa3095ea0f07dec   P2_{1}/m #11,Pm-3m #221                                               None
+pool_38_3: aflow:567385f160f039ea   Pm-3m #221,Pm-3m #221                                                 None
+pool_38_4: aflow:02825535ae74518c   P4/nmm #129,Pm-3m #221                                                None
+pool_38_5: aflow:9c4f9cc83c1ad608   Pm-3m #221,Pm-3m #221                                                 None
+pool_38_6: aflow:eae22f863c9500f2   P4/mmm #123,Pm-3m #221                                                None
+pool_38_7: aflow:28d1dd146d3bd053   Pmma #51,Pm-3m #221                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_38: VOs     mp-12778              	DFT-HUB  	SV     	115.0000   	aflow:ac232fbf28827cdb	129.9980      	14.9980
+pool_39_0: mp-13100                 Pm-3m #221                                                            None                 MoPt3
+pool_39_1: aflow:bbfde97776a47050   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.4, 3. ]), 'LDAUJ': array([0, 0])}
+pool_39_2: aflow:e31bf8f969a18c10   Pm-3m #221,Pm-3m #221                                                 None
+pool_39_3: aflow:d6ee86a0893fd68b   Pm-3m #221,Pm-3m #221                                                 None
+pool_39_4: aflow:26ecc2c5af646ef6   P4/mmm #123,Pm-3m #221                                                None
+pool_39_5: aflow:eefe14c52e4990ed   Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_39: MoPt3   mp-13100              	DFT-HUB  	SV     	104.0000   	aflow:bbfde97776a47050	84.5151       	19.4849
+pool_40_0: mp-1409                  P6_3/mmc #194                                                         None                  TiNi3
+pool_40_1: aflow:ad9270799d5440bd   P6_{3}/mmc #194,P6_{3}/mmc #194                                       {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5.1, 4.4]), 'LDAUJ': array([0, 0])}
+pool_40_2: aflow:ed9f4584bcbea0a1   P6_{3}/mmc #194,P6_{3}/mmc #194                                       {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5.1, 4.4]), 'LDAUJ': array([0, 0])}
+pool_40_3: aflow:b12bb6a688ce3e45   P6_{3}/mmc #194,P6_{3}/mmc #194                                       {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5.1, 4.4]), 'LDAUJ': array([0, 0])}
+pool_40_4: aflow:60e1846d91efc5b3   P6_{3}/mmc #194,P6_{3}/mmc #194                                       {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5.1, 4.4]), 'LDAUJ': array([0, 0])}
+pool_40_5: aflow:275f67a5f79b2e5f   P6_{3}/mmc #194,P6_{3}/mmc #194                                       {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5.1, 4.4]), 'LDAUJ': array([0, 0])}
+pool_40_6: aflow:5ac2510dda0c6fcc   P6_{3}/mmc #194,P6_{3}/mmc #194                                       {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5.1, 4.4]), 'LDAUJ': array([0, 0])}
+pool_40_7: aflow:5449ae749c5dac19   P6_{3}/mmc #194,P6_{3}/mmc #194                                       {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5.1, 4.4]), 'LDAUJ': array([0, 0])}
+pool_40_8: aflow:5a1055a5e25ae9f8   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_40_9: aflow:6cb4805bc4a7b025   Cmcm #63,P6_{3}/mmc #194                                              None
+pool_40_10: aflow:9ecd2dab8111a68d  P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_40_11: aflow:daba86289455b6bb  P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_40_12: aflow:1577cbb5fbf148e8  P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_40: TiNi3   mp-1409               	DFT-HUB  	SV     	97.0000    	aflow:ad9270799d5440bd	None          	not a value
+pool_41_0: mp-2705                  I4/mmm #139                                                           None                  VPt3
+pool_41_1: aflow:833927a29daf073c   I4/mmm #139,I4/mmm #139                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_41_2: aflow:bda48bfbdd63e454   I4/mmm #139,I4/mmm #139                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_41_3: aflow:3ad5dea6361c5735   I4/mmm #139,I4/mmm #139                                               None
+pool_41_4: aflow:b13ad5548086fdcd   I4/mmm #139,I4/mmm #139                                               None
+pool_41_5: aflow:aa270106902df1bd   Immm #71,I4/mmm #139                                                  None
+pool_41_6: aflow:20138a1c502b0340   Immm #71,I4/mmm #139                                                  None
+pool_41_7: aflow:9ac67754b6baa57e   I4/mmm #139,I4/mmm #139                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_41: VPt3    mp-2705               	DFT-HUB  	SV     	111.0000   	aflow:bda48bfbdd63e454	90.4818       	20.5182
+pool_42_0: mp-30738                 Imm2 #44                                                              None                 LiIr3
+pool_42_1: aflow:4e44ed30a559d090   Imm2 #44,Imm2 #44                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.8, 0. ]), 'LDAUJ': array([0, 0])}
+pool_42_2: aflow:ff2ad5f608140ea5   Imm2 #44,Imm2 #44                                                     None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_42: LiIr3   mp-30738              	DFT-HUB  	SV     	112.0000   	aflow:4e44ed30a559d090	None          	not a value
+pool_43_0: mp-569594                R-3m #166                                                             None                Fe7Mo6
+pool_43_1: aflow:bb0834be5cf0c50a   R-3m #166,R-3m #166                                                   {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 2.4]), 'LDAUJ': array([0, 0])}
+pool_43_2: aflow:f8f7ea76eff42271   R-3m #166,R-3m #166                                                   {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 2.4]), 'LDAUJ': array([0, 0])}
+pool_43_3: aflow:4d9ca93442c2ccf4   R-3m #166,R-3m #166                                                   {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 2.4]), 'LDAUJ': array([0, 0])}
+pool_43_4: aflow:3b8a25906359deec   R-3m #166,R-3m #166                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_43: Fe7Mo6  mp-569594             	DFT-HUB  	SV     	112.0000   	aflow:bb0834be5cf0c50a	None          	not a value
+pool_44_0: mp-592                   Pm-3m #221                                                            None                   TiRu
+pool_44_1: aflow:66bb43ad6e9bd4d5   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 4.4]), 'LDAUJ': array([0, 0])}
+pool_44_2: aflow:910165baf6d09c23   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 4.4]), 'LDAUJ': array([0, 0])}
+pool_44_3: aflow:80cba77e1024009d   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 4.4]), 'LDAUJ': array([0, 0])}
+pool_44_4: aflow:8610083794a08d3b   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 4.4]), 'LDAUJ': array([0, 0])}
+pool_44_5: aflow:5f5ca890ce2ce7f5   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 4.4]), 'LDAUJ': array([0, 0])}
+pool_44_6: aflow:c5a9a8ccc11bcfec   P4/nmm #129,Pm-3m #221                                                None
+pool_44_7: aflow:5c51ea70e4230275   Pm-3m #221,Pm-3m #221                                                 None
+pool_44_8: aflow:6ee18c6c607183da   P4/mmm #123,Pm-3m #221                                                None
+pool_44_9: aflow:4d771871d6ad7330   Pm-3m #221,Pm-3m #221                                                 None
+pool_44_10: aflow:3107fb1310f9390d  Pmma #51,Pm-3m #221                                                   None
+pool_44_11: aflow:5e11f7a12b177e96  P2_{1}/m #11,Pm-3m #221                                               None
+pool_44_12: aflow:b9007298ebe97d20  P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_44: TiRu    mp-592                	DFT-HUB  	SV     	107.0000   	aflow:80cba77e1024009d	118.5120      	11.5120
+pool_45_0: mp-670                   Fd-3m #227                                                            None                   NbCo2
+pool_45_1: aflow:b5c9be99fbcbaaa1   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_45_2: aflow:4a605b310ac1d1b5   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_45_3: aflow:918e6cb278a2c997   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_45_4: aflow:f9f253e12bdcc4e9   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_45_5: aflow:063363523957d988   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_45_6: aflow:73902d0c12feb62b   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_45_7: aflow:2d883dc84e993689   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_45_8: aflow:52696ee14230cfeb   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_45_9: aflow:cfd53e8cf2a88046   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_45_10: aflow:2a343ad4d6e2adb9  Fd-3m #227,Fd-3m #227                                                 None
+pool_45_11: aflow:68e88c163f5a6b96  Fd-3m #227,Fd-3m #227                                                 None
+pool_45_12: aflow:5469b1ae0a1d8359  Fd-3m #227,Fd-3m #227                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_45: NbCo2   mp-670                	DFT-HUB  	SV     	111.0000   	aflow:b5c9be99fbcbaaa1	None          	not a value
+pool_46_0: mp-949                   P4/mmm #123                                                           None                   CoPt
+pool_46_1: aflow:3a4d511f8fdea6f4   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5, 3]), 'LDAUJ': array([0, 0])}
+pool_46_2: aflow:e9d85af2f83265aa   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5, 3]), 'LDAUJ': array([0, 0])}
+pool_46_3: aflow:9f22cacc07ff6db3   P4/mmm #123,P4/mmm #123                                               None
+pool_46_4: aflow:8b2256b1c78c6d5c   P4/nmm #129,P4/mmm #123                                               None
+pool_46_5: aflow:4a77373ac09d1c6d   P4/mmm #123,P4/mmm #123                                               None
+pool_46_6: aflow:4f28e0defbc52b33   P4/nmm #129,P4/mmm #123                                               None
+pool_46_7: aflow:03df283108a21924   Cmmm #65,P4/mmm #123                                                  None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_46: CoPt    mp-949                	DFT-HUB  	SV     	108.0000   	aflow:3a4d511f8fdea6f4	None          	not a value
+pool_47_0: mp-1008279               Pm-3m #221                                                            None               Co3Mo
+pool_47_1: aflow:ccf4e5ef9f16be2b   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.4]), 'LDAUJ': array([0, 0])}
+pool_47_2: aflow:2bf99734cf8d38b6   Pm-3m #221,Pm-3m #221                                                 None
+pool_47_3: aflow:73240c64da0178c7   Pnma #62,Pm-3m #221                                                   None
+pool_47_4: aflow:ddf4bbff34d2f5d2   Pm-3m #221,Pm-3m #221                                                 None
+pool_47_5: aflow:73ef49207f6a1706   P4/mmm #123,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_47: Co3Mo   mp-1008279            	DFT-HUB  	SV     	137.0000   	aflow:ccf4e5ef9f16be2b	None          	not a value
+pool_48_0: mp-11452                 Pm-3m #221                                                            None                 HfOs
+pool_48_1: aflow:e958030590a0d0bd   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.6]), 'LDAUJ': array([0, 0])}
+pool_48_2: aflow:88da6b37cfc38651   Pm-3m #221,Pm-3m #221                                                 None
+pool_48_3: aflow:79f00c5704fceb0f   P2_{1}/m #11,Pm-3m #221                                               None
+pool_48_4: aflow:baae56b4f396989c   P2_{1}/m #11,Pm-3m #221                                               None
+pool_48_5: aflow:cb794b0397ecd6ae   Pm-3m #221,Pm-3m #221                                                 None
+pool_48_6: aflow:a54040bbac63aca5   P4/nmm #129,Pm-3m #221                                                None
+pool_48_7: aflow:155df7580edc247a   Pm-3m #221,Pm-3m #221                                                 None
+pool_48_8: aflow:4e37164726bdc1ad   P4/mmm #123,Pm-3m #221                                                None
+pool_48_9: aflow:06feb2add959a301   Pmma #51,Pm-3m #221                                                   None
+pool_48_10: aflow:ac1fce8fc03f115a  P2_{1}/m #11,Pm-3m #221                                               None
+pool_48_11: aflow:58390001e22d3f1e  Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_48: HfOs    mp-11452              	DFT-HUB  	SV     	117.0000   	aflow:e958030590a0d0bd	124.9990      	7.9990
+pool_49_0: mp-11572                 Pm-3m #221                                                            None                 TaTc
+pool_49_1: aflow:4636a6353e82ddee   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_49_2: aflow:578a0b458b96688b   P4/nmm #129,Pm-3m #221                                                None
+pool_49_3: aflow:964c0ed796e08103   Pm-3m #221,Pm-3m #221                                                 None
+pool_49_4: aflow:73c0a92c150786bc   P4/mmm #123,Pm-3m #221                                                None
+pool_49_5: aflow:b431a756f3d9db6a   Pm-3m #221,Pm-3m #221                                                 None
+pool_49_6: aflow:92fd630d7a38cee8   Pmma #51,Pm-3m #221                                                   None
+pool_49_7: aflow:3cc49892e85c73cb   P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_49: TaTc    mp-11572              	DFT-HUB  	SV     	130.0000   	aflow:4636a6353e82ddee	133.3570      	3.3570
+pool_50_0: mp-12595                 Pmma #51                                                              None                 MoRh
+pool_50_1: aflow:d843347666787469   Pmma #51,Pmma #51                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.4, 3.3]), 'LDAUJ': array([0, 0])}
+pool_50_2: aflow:a9d63077fe7c78e5   Pmma #51,Pmma #51                                                     None
+pool_50_3: aflow:64c30c3617648b76   P2_{1}/m #11,Pmma #51                                                 None
+pool_50_4: aflow:a71313bff1309ae3   P2_{1}/m #11,Pmma #51                                                 None
+pool_50_5: aflow:6ba6836d2365972e   Pmma #51,Pmma #51                                                     None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_50: MoRh    mp-12595              	DFT-HUB  	SV     	134.0000   	aflow:d843347666787469	97.9860       	36.0140
+pool_51_0: mp-1281                  P4/mmm #123                                                           None                  VIr
+pool_51_1: aflow:5c5cf77c2adfe80f   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.8, 2.7]), 'LDAUJ': array([0, 0])}
+pool_51_2: aflow:35b619fdca0e8a30   Cmcm #63,P4/mmm #123                                                  {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.8, 2.7]), 'LDAUJ': array([0, 0])}
+pool_51_3: aflow:5290f0b794aa893b   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.8, 2.7]), 'LDAUJ': array([0, 0])}
+pool_51_4: aflow:41a274828d8ec1b0   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.8, 2.7]), 'LDAUJ': array([0, 0])}
+pool_51_5: aflow:1638a35ca98e8127   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.8, 2.7]), 'LDAUJ': array([0, 0])}
+pool_51_6: aflow:e894f846d730bbc3   P4/mmm #123,P4/mmm #123                                               None
+pool_51_7: aflow:c8d6e5669843a949   P4/nmm #129,P4/mmm #123                                               None
+pool_51_8: aflow:6ce3bf2a9a670854   P4/mmm #123,P4/mmm #123                                               None
+pool_51_9: aflow:add37ab0ff1c680f   P4/mmm #123,P4/mmm #123                                               None
+pool_51_10: aflow:6db33818cd9bc5e6  Cmmm #65,P4/mmm #123                                                  None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_51: VIr     mp-1281               	DFT-HUB  	SV     	123.0000   	aflow:1638a35ca98e8127	121.9580      	1.0420
+pool_52_0: mp-1473                  R-3m #166                                                             None                  Fe7W6
+pool_52_1: aflow:1b5a02557e165f79   R-3m #166,R-3m #166                                                   {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 2.2]), 'LDAUJ': array([0, 0])}
+pool_52_2: aflow:f0b1ffff17dfe965   R-3m #166,R-3m #166                                                   {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 2.2]), 'LDAUJ': array([0, 0])}
+pool_52_3: aflow:dbee50e1a1268758   R-3m #166,R-3m #166                                                   {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 2.2]), 'LDAUJ': array([0, 0])}
+pool_52_4: aflow:da533d8cd115076e   R-3m #166,R-3m #166                                                   {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 2.2]), 'LDAUJ': array([0, 0])}
+pool_52_5: aflow:4a2a43e27fb8a7a1   R-3m #166,R-3m #166                                                   {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 2.2]), 'LDAUJ': array([0, 0])}
+pool_52_6: aflow:c1f85e009fa56938   R-3m #166,R-3m #166                                                   {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 2.2]), 'LDAUJ': array([0, 0])}
+pool_52_7: aflow:ccee043600a23548   R-3m #166,R-3m #166                                                   None
+pool_52_8: aflow:0d08e8d7d4325a05   R-3m #166,R-3m #166                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_52: Fe7W6   mp-1473               	DFT-HUB  	SV     	132.0000   	aflow:1b5a02557e165f79	None          	not a value
+pool_53_0: mp-1799                  Fd-3m #227                                                            None                  TaCo2
+pool_53_1: aflow:cf96e45cf63eb5fa   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5, 2]), 'LDAUJ': array([0, 0])}
+pool_53_2: aflow:5ee0dad70de81ed6   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5, 2]), 'LDAUJ': array([0, 0])}
+pool_53_3: aflow:ef7ce9ce71b9c653   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5, 2]), 'LDAUJ': array([0, 0])}
+pool_53_4: aflow:9e55b1daa0504bda   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5, 2]), 'LDAUJ': array([0, 0])}
+pool_53_5: aflow:ade83d1f573edef2   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5, 2]), 'LDAUJ': array([0, 0])}
+pool_53_6: aflow:2124b27ae7219b7b   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5, 2]), 'LDAUJ': array([0, 0])}
+pool_53_7: aflow:93561cf7d5cba5f0   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5, 2]), 'LDAUJ': array([0, 0])}
+pool_53_8: aflow:2cd1524b162acf15   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5, 2]), 'LDAUJ': array([0, 0])}
+pool_53_9: aflow:b99515dc828ce850   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5, 2]), 'LDAUJ': array([0, 0])}
+pool_53_10: aflow:d4739e8da8db810f  Fd-3m #227,Fd-3m #227                                                 None
+pool_53_11: aflow:47f2561d8306e6fe  Fd-3m #227,Fd-3m #227                                                 None
+pool_53_12: aflow:b6353d913761332d  Fd-3m #227,Fd-3m #227                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_53: TaCo2   mp-1799               	DFT-HUB  	SV     	120.0000   	aflow:cf96e45cf63eb5fa	None          	not a value
+pool_54_0: mp-2157                  P6_3/mmc #194                                                         None                  Co3W
+pool_54_1: aflow:bcfc385e787be684   P6_{3}/mmc #194,Cmcm #63                                              {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.2]), 'LDAUJ': array([0, 0])}
+pool_54_2: aflow:f2aba5343b302ba7   P6_{3}/mmc #194,P6_{3}/mmc #194                                       {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.2]), 'LDAUJ': array([0, 0])}
+pool_54_3: aflow:a365bcbbe78a59a0   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_54_4: aflow:5397d5f807ed8477   Cmcm #63,P6_{3}/mmc #194                                              None
+pool_54_5: aflow:13f50f554bdd2ec0   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_54_6: aflow:f82878cfdb11579c   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_54_7: aflow:093d8c480d7f167f   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_54: Co3W    mp-2157               	DFT-HUB  	SV     	142.0000   	aflow:bcfc385e787be684	None          	not a value
+pool_55_0: mp-30787                 P6_3/mmc #194                                                         None                 MoRh3
+pool_55_1: aflow:416b4044dfd08715   P6_{3}/mmc #194,P6_{3}/mmc #194                                       {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.4, 3.3]), 'LDAUJ': array([0, 0])}
+pool_55_2: aflow:05c4f39db33f9793   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_55_3: aflow:b1594e1b07f0363d   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_55_4: aflow:a28e854e3326e7db   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_55_5: aflow:5309020bc327a6e4   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_55_6: aflow:ff4497c73bd904e6   Cmcm #63,P6_{3}/mmc #194                                              None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_55: MoRh3   mp-30787              	DFT-HUB  	SV     	127.0000   	aflow:416b4044dfd08715	127.8620      	0.8620
+pool_56_0: mp-316                   Pm-3m #221                                                            None                   MnV
+pool_56_1: aflow:c6d068e985f2a15e   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_56_2: aflow:0eb43f4446e64fc6   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_56_3: aflow:f70cab97c0ad2977   Pm-3m #221,Pm-3m #221                                                 None
+pool_56_4: aflow:756c20564c007bef   P2_{1}/m #11,Pm-3m #221                                               None
+pool_56_5: aflow:3781c6284774a8f0   Pm-3m #221,Pm-3m #221                                                 None
+pool_56_6: aflow:5e2de4f90c5a340f   P4/mmm #123,Pm-3m #221                                                None
+pool_56_7: aflow:af551ccb5a8d26f9   Pmma #51,Pm-3m #221                                                   None
+pool_56_8: aflow:0200543f80c34eb1   P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_56: MnV     mp-316                	DFT-HUB  	SV     	122.0000   	aflow:c6d068e985f2a15e	140.9480      	18.9480
+pool_57_0: mp-567747                R-3m #166                                                             None                Co7Mo6
+pool_57_1: aflow:7dc41911636325f9   R-3m #166,R-3m #166                                                   {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.4]), 'LDAUJ': array([0, 0])}
+pool_57_2: aflow:3515d15640b3ef36   R-3m #166,R-3m #166                                                   {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.4]), 'LDAUJ': array([0, 0])}
+pool_57_3: aflow:2a6352cf55d3359f   R-3m #166,R-3m #166                                                   None
+pool_57_4: aflow:7ce36e3878840e0c   R-3m #166,R-3m #166                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_57: Co7Mo6  mp-567747             	DFT-HUB  	SV     	126.0000   	aflow:7dc41911636325f9	None          	not a value
+pool_58_0: mp-7851                  R-3m #166                                                             None                  TaCo3
+pool_58_1: aflow:e0d63e1b5dd4cd20   R-3m #166,R-3m #166                                                   {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5, 2]), 'LDAUJ': array([0, 0])}
+pool_58_2: aflow:0314206fb852b0c4   R-3m #166,R-3m #166                                                   None
+pool_58_3: aflow:592b110b5189e924   R-3m #166,R-3m #166                                                   None
+pool_58_4: aflow:3cbbc4dfcf8ed761   R-3m #166,R-3m #166                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_58: TaCo3   mp-7851               	DFT-HUB  	SV     	125.0000   	aflow:e0d63e1b5dd4cd20	None          	not a value
+pool_59_0: mp-801                   Pm-3n #223                                                            None                   Mo3Os
+pool_59_1: aflow:585bd404c2d1ce97   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.4, 2.6]), 'LDAUJ': array([0, 0])}
+pool_59_2: aflow:74692bc902a9775e   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.4, 2.6]), 'LDAUJ': array([0, 0])}
+pool_59_3: aflow:d91b3b3427a6cfa7   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.4, 2.6]), 'LDAUJ': array([0, 0])}
+pool_59_4: aflow:a61ef2ba8ee9ac46   Pm-3n #223,Pm-3n #223                                                 None
+pool_59_5: aflow:c3b7968ac3954497   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_59: Mo3Os    mp-801                	DFT-HUB  	SV     	120.0000   	aflow:d91b3b3427a6cfa7	103.6690      	16.3310
+pool_60_0: mp-639789                P4_132 #213                                                           None                Fe2Re3
+pool_60_1: aflow:340c69078949ff30   P4_{1}32 #213,P4_{1}32 #213                                           {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 2.4]), 'LDAUJ': array([0, 0])}
+pool_60_2: aflow:7ec6c993440f2316   P4_{1}32 #213,P4_{1}32 #213                                           {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([4.6, 2.4]), 'LDAUJ': array([0, 0])}
+pool_60_3: aflow:2b4dc99fc1b2bd58   P4_{1}32 #213,P4_{1}32 #213                                           None
+pool_60_4: aflow:93420ea85fa73bad   P4_{1}32 #213,P4_{1}32 #213                                           None
+pool_60_5: aflow:c8efc5d67c1a7787   P4_{1}32 #213,P4_{1}32 #213                                           None
+pool_60_6: aflow:359e17150a0805c8   P4_{1}32 #213,P4_{1}32 #213                                           None
+pool_60_7: aflow:504d6be47eab06f4   P4_{1}32 #213,P4_{1}32 #213                                           None
+pool_60_8: aflow:753ff9e8a902e3c0   P4_{1}32 #213,P4_{1}32 #213                                           None
+pool_60_9: aflow:eb9df73563a5e73c   P4_{1}32 #213,P4_{1}32 #213                                           None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_60: Fe2Re3  mp-639789             	DFT-HUB  	SV     	101.0000   	aflow:340c69078949ff30	130.9850      	29.9850
+pool_61_0: mp-980203                Pm-3m #221                                                            None                TiOs3
+pool_61_1: aflow:649d0f5362dd740a   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.6, 4.4]), 'LDAUJ': array([0, 0])}
+pool_61_2: aflow:51993a19af05300c   Pm-3m #221,Pm-3m #221                                                 None
+pool_61_3: aflow:1526c0bb56a6628c   Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_61: TiOs3   mp-980203             	DFT-HUB  	SV     	131.0000   	aflow:649d0f5362dd740a	117.3520      	13.6480
+pool_62_0: mp-1263                  Pm-3m #221                                                            None                  URu3
+pool_62_1: aflow:cd335767e53fce83   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([3, 4]), 'LDAUJ': array([0, 0])}
+pool_62_2: aflow:2c3007de7fb56080   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([3, 4]), 'LDAUJ': array([0, 0])}
+pool_62_3: aflow:0037193b0f247419   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([3, 4]), 'LDAUJ': array([0, 0])}
+pool_62_4: aflow:8dda739dcf260b3d   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([3, 4]), 'LDAUJ': array([0, 0])}
+pool_62_5: aflow:f2a7210558085625   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([3, 4]), 'LDAUJ': array([0, 0])}
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_62: URu3    mp-1263               	DFT-HUB  	SV     	92.0000    	aflow:cd335767e53fce83	103.3040      	11.3040
+pool_63_0: mp-1017542               Pm-3m #221                                                            None               ZrOs3
+pool_63_1: aflow:76196fa1b70f94cf   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.6, 0. ]), 'LDAUJ': array([0, 0])}
+pool_63_2: aflow:23cd8b611fe7dba2   Pm-3m #221,Pm-3m #221                                                 None
+pool_63_3: aflow:08f5a45daabaa5d3   Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_63: ZrOs3   mp-1017542            	DFT-HUB  	SV     	110.0000   	aflow:76196fa1b70f94cf	108.9690      	1.0310
+pool_64_0: mp-372                   Pm-3m #221                                                            None                   VPt3
+pool_64_1: aflow:0d21c4a4cab5a4a7   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_64_2: aflow:070d1a4de1bb3fe4   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_64_3: aflow:4814827b26e4bc0a   Pm-3m #221,Pm-3m #221                                                 None
+pool_64_4: aflow:c749ceb4bfdfa3d1   Pnma #62,Pm-3m #221                                                   None
+pool_64_5: aflow:e434fa4cc610b9ff   Pm-3m #221,Pm-3m #221                                                 None
+pool_64_6: aflow:3c7bd59278791829   Pm-3m #221,Pm-3m #221                                                 None
+pool_64_7: aflow:a0631ca130a41869   P4/mmm #123,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_64: VPt3    mp-372                	DFT-HUB  	SV     	110.0000   	aflow:070d1a4de1bb3fe4	99.0821       	10.9179
+pool_65_0: mp-30858                 Pm-3m #221                                                            None                 ZrPt3
+pool_65_1: aflow:f62d1b72f499b218   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([3, 0]), 'LDAUJ': array([0, 0])}
+pool_65_2: aflow:715830679f2b2c0d   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([3, 0]), 'LDAUJ': array([0, 0])}
+pool_65_3: aflow:c533942fade15945   Pm-3m #221,Pm-3m #221                                                 None
+pool_65_4: aflow:b3e1723f071bfaca   Pnma #62,Pm-3m #221                                                   None
+pool_65_5: aflow:0802a2f5c76ed110   Pm-3m #221,Pm-3m #221                                                 None
+pool_65_6: aflow:45f0f4e682511fc5   Cmmm #65,Pm-3m #221                                                   None
+pool_65_7: aflow:f15e8783117a146b   Pm-3m #221,Pm-3m #221                                                 None
+pool_65_8: aflow:c9ea265e15fa59f9   P4/mmm #123,Pm-3m #221                                                None
+pool_65_9: aflow:3e79962baf76b139   Pmm2 #25,Pm-3m #221                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_65: ZrPt3   mp-30858              	DFT-HUB  	SV     	103.0000   	aflow:f62d1b72f499b218	99.2292       	3.7708
+pool_66_0: mp-30788                 Pm-3n #223                                                            None                 SnMo3
+pool_66_1: aflow:fb311837ec527cc2   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.4, 3.5]), 'LDAUJ': array([0, 0])}
+pool_66_2: aflow:f979bf12ac694463   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.4, 3.5]), 'LDAUJ': array([0, 0])}
+pool_66_3: aflow:928eb45d400dd565   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_66: SnMo3   mp-30788              	DFT-HUB  	SV     	101.0000   	aflow:fb311837ec527cc2	94.2270       	6.7730
+pool_67_0: mp-30866                 P6_3/mmc #194                                                         None                 Rh3W
+pool_67_1: aflow:ac0a35fb28a4318b   P6_{3}/mmc #194,P6_{3}/mmc #194                                       {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3.3, 2.2]), 'LDAUJ': array([0, 0])}
+pool_67_2: aflow:d9d693eff729b9c9   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_67_3: aflow:ecb6c4153cc6dc48   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_67_4: aflow:58a9d7211c7ad5e6   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_67_5: aflow:9201df0e9525170e   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_67_6: aflow:6b03f21253b5420c   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_67: Rh3W    mp-30866              	DFT-HUB  	SV     	132.0000   	aflow:ac0a35fb28a4318b	127.2540      	4.7460
+pool_68_0: mp-11456                 P6_3/mmc #194                                                         None                 HfPt3
+pool_68_1: aflow:05d3592526d7ddc7   P6_{3}/mmc #194,P6_{3}/mmc #194                                       {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0, 3]), 'LDAUJ': array([0, 0])}
+pool_68_2: aflow:83699213970d94a3   P6_{3}/mmc #194,P6_{3}/mmc #194                                       {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0, 3]), 'LDAUJ': array([0, 0])}
+pool_68_3: aflow:036694eeec81ee2e   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_68_4: aflow:2f89b5a31f6b4876   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_68_5: aflow:0ff1e15bc5d7cbd5   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_68_6: aflow:c91b3930017dcc35   P6_{3}/mmc #194,P6_{3}/mmc #194                                       None
+pool_68_7: aflow:426ebf21e2929156   Cmcm #63,P6_{3}/mmc #194                                              None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_68: HfPt3   mp-11456              	DFT-HUB  	SV     	106.0000   	aflow:05d3592526d7ddc7	105.1320      	0.8680
+pool_69_0: mp-1044                  Pm-3m #221                                                            None                  UIr3
+pool_69_1: aflow:9af60c5a7274d323   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([2.8, 4. ]), 'LDAUJ': array([0, 0])}
+pool_69_2: aflow:a6469c0a257002e5   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([2.8, 4. ]), 'LDAUJ': array([0, 0])}
+pool_69_3: aflow:48fceb3cd9dbb32c   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([2.8, 4. ]), 'LDAUJ': array([0, 0])}
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_69: UIr3    mp-1044               	DFT-HUB  	SV     	122.0000   	aflow:9af60c5a7274d323	123.1880      	1.1880
+pool_70_0: mp-952                   Immm #71                                                              None                   MoPt2
+pool_70_1: aflow:906719d495930304   Immm #71,Immm #71                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.4, 3. ]), 'LDAUJ': array([0, 0])}
+pool_70_2: aflow:0d66e9c5416fde0e   Immm #71,Immm #71                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.4, 3. ]), 'LDAUJ': array([0, 0])}
+pool_70_3: aflow:cdbe97e96d2d1cf1   Immm #71,Immm #71                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.4, 3. ]), 'LDAUJ': array([0, 0])}
+pool_70_4: aflow:b025dda1492c0ec6   Immm #71,Immm #71                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.4, 3. ]), 'LDAUJ': array([0, 0])}
+pool_70_5: aflow:8e91addb62262c6f   Pnnm #58,Immm #71                                                     None
+pool_70_6: aflow:9b56962db156bc4d   Immm #71,Immm #71                                                     None
+pool_70_7: aflow:1e8159ac7f624b57   Immm #71,Immm #71                                                     None
+pool_70_8: aflow:c4f05a6639ab94e5   Pnnm #58,Immm #71                                                     None
+pool_70_9: aflow:0c6090f3b95fc731   Immm #71,Immm #71                                                     None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_70: MoPt2   mp-952                	DFT-HUB  	SV     	137.0000   	aflow:cdbe97e96d2d1cf1	124.4000      	12.6000
+pool_71_0: mp-1655                  Fd-3m #227                                                            None                  UIr2
+pool_71_1: aflow:f958850a678420df   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([2.8, 4. ]), 'LDAUJ': array([0, 0])}
+pool_71_2: aflow:22c14d63dddf2834   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 3]), 'LDAUU': array([2.8, 4. ]), 'LDAUJ': array([0, 0])}
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_71: UIr2    mp-1655               	DFT-HUB  	SV     	96.0000    	aflow:f958850a678420df	96.5571       	0.5571
+pool_72_0: mp-12107                 Pm-3m #221                                                            None                 TiPt3
+pool_72_1: aflow:7486cf193d1a2c3c   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 4.4]), 'LDAUJ': array([0, 0])}
+pool_72_2: aflow:ba3acf5ce3afd378   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 4.4]), 'LDAUJ': array([0, 0])}
+pool_72_3: aflow:494c856409166347   Pm-3m #221,Pm-3m #221                                                 None
+pool_72_4: aflow:b9c984f37dbeb7c2   Pnma #62,Pm-3m #221                                                   None
+pool_72_5: aflow:0f69644b17d989b9   Pm-3m #221,Pm-3m #221                                                 None
+pool_72_6: aflow:8e7a28d1e75e97b4   Pm-3m #221,Pm-3m #221                                                 None
+pool_72_7: aflow:88712a6f9104a596   P4/mmm #123,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_72: TiPt3   mp-12107              	DFT-HUB  	SV     	113.0000   	aflow:ba3acf5ce3afd378	107.3410      	5.6590
+pool_73_0: mp-2263                  Fd-3m #227                                                            None                  ScIr2
+pool_73_1: aflow:27b333348929ec9d   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.8, 2.9]), 'LDAUJ': array([0, 0])}
+pool_73_2: aflow:9b6f14f29a39f765   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.8, 2.9]), 'LDAUJ': array([0, 0])}
+pool_73_3: aflow:3b912f9c501578ee   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.8, 2.9]), 'LDAUJ': array([0, 0])}
+pool_73_4: aflow:96d0971d445c3b8e   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.8, 2.9]), 'LDAUJ': array([0, 0])}
+pool_73_5: aflow:18db74dff4f24851   Fd-3m #227,Fd-3m #227                                                 None
+pool_73_6: aflow:cce08ae27f1411d8   Fd-3m #227,Fd-3m #227                                                 None
+pool_73_7: aflow:cac09d457235eb3a   Fd-3m #227,Fd-3m #227                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_73: ScIr2   mp-2263               	DFT-HUB  	SV     	100.0000   	aflow:27b333348929ec9d	100.9710      	0.9710
+pool_74_0: mp-1458                  Pm-3n #223                                                            None                  Nb3Ir
+pool_74_1: aflow:2b0299d8a0345306   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.8, 2.1]), 'LDAUJ': array([0, 0])}
+pool_74_2: aflow:a1ec265dabdd6573   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.8, 2.1]), 'LDAUJ': array([0, 0])}
+pool_74_3: aflow:dbaf10591325ea9f   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.8, 2.1]), 'LDAUJ': array([0, 0])}
+pool_74_4: aflow:34d33f3d9eb2100f   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.8, 2.1]), 'LDAUJ': array([0, 0])}
+pool_74_5: aflow:3b654d3ce18c5f24   Pm-3n #223,Pm-3n #223                                                 None
+pool_74_6: aflow:78a1a5045d4428e3   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_74: Nb3Ir   mp-1458               	DFT-HUB  	SV     	104.0000   	aflow:dbaf10591325ea9f	103.4940      	0.5060
+pool_75_0: mp-1018054               Pm-3m #221                                                            None               HfPt3
+pool_75_1: aflow:79fbdb28bd68ab29   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0, 3]), 'LDAUJ': array([0, 0])}
+pool_75_2: aflow:730f4ecaf775c78d   Cmmm #65,Pm-3m #221                                                   None
+pool_75_3: aflow:81b353bc6994bc11   Pm-3m #221,Pm-3m #221                                                 None
+pool_75_4: aflow:b840dbcee9ffc389   Pm-3m #221,Pm-3m #221                                                 None
+pool_75_5: aflow:3dfad29e452da747   Pmm2 #25,Pm-3m #221                                                   None
+pool_75_6: aflow:1c5ed4df71e10046   P4/mmm #123,Pm-3m #221                                                None
+pool_75_7: aflow:963c6353fd78c7b9   Pnma #62,Pm-3m #221                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_75: HfPt3   mp-1018054            	DFT-HUB  	SV     	114.0000   	aflow:79fbdb28bd68ab29	109.7480      	4.2520
+pool_76_0: mp-875                   Pm-3m #221                                                            None                   AlOs
+pool_76_1: aflow:e7e3730fc8ee2719   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.6]), 'LDAUJ': array([0, 0])}
+pool_76_2: aflow:d062e84645fff1cf   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.6]), 'LDAUJ': array([0, 0])}
+pool_76_3: aflow:0bfbd3e06ddf9497   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.6]), 'LDAUJ': array([0, 0])}
+pool_76_4: aflow:747c695bfb5c1fbd   P2_{1}/m #11,Pm-3m #221                                               None
+pool_76_5: aflow:9bc0695fc3955cd3   Pm-3m #221,Pm-3m #221                                                 None
+pool_76_6: aflow:335aeb81c85ee9cd   P4/nmm #129,Pm-3m #221                                                None
+pool_76_7: aflow:f6e4db5432cd3ad8   Pm-3m #221,Pm-3m #221                                                 None
+pool_76_8: aflow:0187858f52f61918   P4/mmm #123,Pm-3m #221                                                None
+pool_76_9: aflow:842d8e3e0f540c57   Pmma #51,Pm-3m #221                                                   None
+pool_76_10: aflow:31169969596f21f3  P2_{1}/m #11,Pm-3m #221                                               None
+pool_76_11: aflow:a4654af35e189b86  P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_76: AlOs    mp-875                	DFT-HUB  	SV     	118.0000   	aflow:0bfbd3e06ddf9497	113.2390      	4.7610
+pool_77_0: mp-12585                 Pm-3m #221                                                            None                 CrRh3
+pool_77_1: aflow:28847c37c6fa69ea   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3.5, 3.3]), 'LDAUJ': array([0, 0])}
+pool_77_2: aflow:25fa9b15b1be2cf8   Pm-3m #221,Pm-3m #221                                                 None
+pool_77_3: aflow:bffedeaa7308511c   Pm-3m #221,Pm-3m #221                                                 None
+pool_77_4: aflow:37f19ed6a7bc0d7c   P4/mmm #123,Pm-3m #221                                                None
+pool_77_5: aflow:e6d4b23b3e5eeba2   Pm-3m #221,Pm-3m #221                                                 None
+pool_77_6: aflow:edf4ef0a6c9697f2   Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_77: CrRh3   mp-12585              	DFT-HUB  	SV     	151.0000   	aflow:28847c37c6fa69ea	119.9540      	31.0460
+pool_78_0: mp-542569                Pm-3m #221                                                            None                AlRu
+pool_78_1: aflow:cf022b3706636d62   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0, 3]), 'LDAUJ': array([0, 0])}
+pool_78_2: aflow:ac126a262b091e4b   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0, 3]), 'LDAUJ': array([0, 0])}
+pool_78_3: aflow:301b25447c7f6f3a   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0, 3]), 'LDAUJ': array([0, 0])}
+pool_78_4: aflow:0748412c3a3db28b   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0, 3]), 'LDAUJ': array([0, 0])}
+pool_78_5: aflow:3f5c420fa5154749   P2_{1}/m #11,Pm-3m #221                                               None
+pool_78_6: aflow:6b34194d10c862d0   P4/nmm #129,Pm-3m #221                                                None
+pool_78_7: aflow:d911b0420572a0d2   Pm-3m #221,Pm-3m #221                                                 None
+pool_78_8: aflow:1224ed3165da290d   P4/mmm #123,Pm-3m #221                                                None
+pool_78_9: aflow:b17ab257c36a84dd   Pnma #62,Pm-3m #221                                                   None
+pool_78_10: aflow:3dd5a18772437f39  Pm-3m #221,Pm-3m #221                                                 None
+pool_78_11: aflow:57b845dc5a44ebb8  Pmma #51,Pm-3m #221                                                   None
+pool_78_12: aflow:80fd474b924f683b  P2_{1}/m #11,Pm-3m #221                                               None
+pool_78_13: aflow:506ac80eff249170  P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_78: AlRu    mp-542569             	DFT-HUB  	SV     	103.0000   	aflow:0748412c3a3db28b	96.6456       	6.3544
+pool_79_0: mp-1578                  Pm-3n #223                                                            None                  V3Rh
+pool_79_1: aflow:622e7ac118e3c7e2   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3.3, 2.7]), 'LDAUJ': array([0, 0])}
+pool_79_2: aflow:d131d4df09a57b10   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3.3, 2.7]), 'LDAUJ': array([0, 0])}
+pool_79_3: aflow:be6dcb5b9abec403   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3.3, 2.7]), 'LDAUJ': array([0, 0])}
+pool_79_4: aflow:da85f842b1073101   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3.3, 2.7]), 'LDAUJ': array([0, 0])}
+pool_79_5: aflow:70db2770296ed5c3   Pm-3n #223,Pm-3n #223                                                 None
+pool_79_6: aflow:20c6d07aff3bbffe   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_79: V3Rh    mp-1578               	DFT-HUB  	SV     	105.0000   	aflow:622e7ac118e3c7e2	102.6690      	2.3310
+pool_80_0: mp-214                   Pm-3m #221                                                            None                   ZrRu
+pool_80_1: aflow:f22c703bcdb00e01   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([3, 0]), 'LDAUJ': array([0, 0])}
+pool_80_2: aflow:c62f4bb4b90fbb74   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([3, 0]), 'LDAUJ': array([0, 0])}
+pool_80_3: aflow:64d12274ee0101b0   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([3, 0]), 'LDAUJ': array([0, 0])}
+pool_80_4: aflow:1492c450d1bdf3b6   Pmmn #59,Pm-3m #221                                                   None
+pool_80_5: aflow:519e6e9d0818ff50   P2_{1}/m #11,Pm-3m #221                                               None
+pool_80_6: aflow:f49882c3ef54bb5f   P2_{1}/m #11,Pm-3m #221                                               None
+pool_80_7: aflow:cf389666e3648346   P4/nmm #129,Pm-3m #221                                                None
+pool_80_8: aflow:6f480458881b636c   Pm-3m #221,Pm-3m #221                                                 None
+pool_80_9: aflow:c6c2a61c30e8d568   P4/mmm #123,Pm-3m #221                                                None
+pool_80_10: aflow:93fcada0a030ba89  Pnma #62,Pm-3m #221                                                   None
+pool_80_11: aflow:cb9cd2f8cc03b408  Pm-3m #221,Pm-3m #221                                                 None
+pool_80_12: aflow:9758657393acd282  Pmma #51,Pm-3m #221                                                   None
+pool_80_13: aflow:13eb00aff16a5961  P4/nmm #129,Pm-3m #221                                                None
+pool_80_14: aflow:19c9adfd1ce357f7  Cmmm #65,Pm-3m #221                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_80: ZrRu    mp-214                	DFT-HUB  	SV     	81.0000    	aflow:f22c703bcdb00e01	88.5537       	7.5537
+pool_81_0: mp-1585                  Pm-3n #223                                                            None                  V3Co
+pool_81_1: aflow:bc48c99fdd4a8c42   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_81_2: aflow:756d54973a76301a   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([5. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_81_3: aflow:48683e4fdf2b0f72   Pm-3n #223,Pm-3n #223                                                 None
+pool_81_4: aflow:b7d9486dc48bce01   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_81: V3Co    mp-1585               	DFT-HUB  	SV     	110.0000   	aflow:bc48c99fdd4a8c42	99.4357       	10.5643
+pool_82_0: mp-494                   Pm-3n #223                                                            None                   GeMo3
+pool_82_1: aflow:45428a6cb7e59995   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.4]), 'LDAUJ': array([0, 0])}
+pool_82_2: aflow:82c3a184dc022f11   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.4]), 'LDAUJ': array([0, 0])}
+pool_82_3: aflow:cadc703defb360c9   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.4]), 'LDAUJ': array([0, 0])}
+pool_82_4: aflow:2475559a69bc66fe   Pm-3n #223,Pm-3n #223                                                 None
+pool_82_5: aflow:0b939328742a72e2   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_82: GeMo3   mp-494                	DFT-HUB  	SV     	None       	aflow:82c3a184dc022f11	112.2530      	not a value
+pool_83_0: mp-11517                 Pm-3m #221                                                            None                 NbRu3
+pool_83_1: aflow:8d391fe939c34557   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.1, 3. ]), 'LDAUJ': array([0, 0])}
+pool_83_2: aflow:38f3f1928c90b378   Pm-3m #221,Pm-3m #221                                                 None
+pool_83_3: aflow:c72822117a1f69b0   Pm-3m #221,Pm-3m #221                                                 None
+pool_83_4: aflow:37226ed0993b70d4   Pm-3m #221,Pm-3m #221                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_83: NbRu3   mp-11517              	DFT-HUB  	SV     	128.0000   	aflow:8d391fe939c34557	116.1470      	11.8530
+pool_84_0: mp-1129                  Pm-3m #221                                                            None                  ScIr
+pool_84_1: aflow:1ac49c8e5e124ef8   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.8, 2.9]), 'LDAUJ': array([0, 0])}
+pool_84_2: aflow:491c4e768cb506f6   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.8, 2.9]), 'LDAUJ': array([0, 0])}
+pool_84_3: aflow:c2cfb234ee138351   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.8, 2.9]), 'LDAUJ': array([0, 0])}
+pool_84_4: aflow:eeffe9740679bcb8   Pm-3m #221,Pm-3m #221                                                 None
+pool_84_5: aflow:b971659669544aa1   P2_{1}/m #11,Pm-3m #221                                               None
+pool_84_6: aflow:b327bcefb8bf0094   P4/nmm #129,Pm-3m #221                                                None
+pool_84_7: aflow:6506f2307f631425   Pm-3m #221,Pm-3m #221                                                 None
+pool_84_8: aflow:2b7c128d62a1fa49   P4/mmm #123,Pm-3m #221                                                None
+pool_84_9: aflow:6c5543716232a90f   Pmma #51,Pm-3m #221                                                   None
+pool_84_10: aflow:9119d4f773a344e8  P2_{1}/m #11,Pm-3m #221                                               None
+pool_84_11: aflow:733f83c8b79b5d3f  P4/nmm #129,Pm-3m #221                                                None
+pool_84_12: aflow:452aed5e94ce498c  Cmmm #65,Pm-3m #221                                                   None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_84: ScIr    mp-1129               	DFT-HUB  	SV     	75.0000    	aflow:1ac49c8e5e124ef8	80.0181       	5.0181
+pool_85_0: mp-2053                  Pm-3n #223                                                            None                  Nb3Sb
+pool_85_1: aflow:832613a57dd72e7e   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.1, 0. ]), 'LDAUJ': array([0, 0])}
+pool_85_2: aflow:f7a2bc67b14b4b79   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.1, 0. ]), 'LDAUJ': array([0, 0])}
+pool_85_3: aflow:2a77fe15be59f7f8   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.1, 0. ]), 'LDAUJ': array([0, 0])}
+pool_85_4: aflow:3b022385d196fd94   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.1, 0. ]), 'LDAUJ': array([0, 0])}
+pool_85_5: aflow:6512b9eaddcd59ae   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.1, 0. ]), 'LDAUJ': array([0, 0])}
+pool_85_6: aflow:64a4658cc23869e6   Pm-3n #223,Pm-3n #223                                                 None
+pool_85_7: aflow:6f806e24d1380bc9   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_85: Nb3Sb   mp-2053               	DFT-HUB  	SV     	82.0000    	aflow:2a77fe15be59f7f8	80.7255       	1.2745
+pool_86_0: mp-17615                 I4/mcm #140                                                           None                 Ta5Ge3
+pool_86_1: aflow:4afd885d0385a2b0   I4/mcm #140,I4/mcm #140                                               {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0, 2]), 'LDAUJ': array([0, 0])}
+pool_86_2: aflow:577e516a8635cda8   I4/mcm #140,I4/mcm #140                                               {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0, 2]), 'LDAUJ': array([0, 0])}
+pool_86_3: aflow:805c17fdce63991a   I4/mcm #140,I4/mcm #140                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_86: Ta5Ge3  mp-17615              	DFT-HUB  	SV     	None       	aflow:577e516a8635cda8	93.2071       	not a value
+pool_87_0: mp-30741                 Pm-3m #221                                                            None                 PaIr3
+pool_87_1: aflow:6a5764c23dd260e3   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.8, 0. ]), 'LDAUJ': array([0, 0])}
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_87: PaIr3   mp-30741              	DFT-HUB  	SV     	128.0000   	aflow:6a5764c23dd260e3	126.0940      	1.9060
+pool_88_0: mp-11272                 P4/mbm #127                                                           None                 Be2Nb3
+pool_88_1: aflow:54d192a65c37fe6e   P4/mbm #127,P4/mbm #127                                               {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.1]), 'LDAUJ': array([0, 0])}
+pool_88_2: aflow:6ed0be4071acb282   P4/mbm #127,P4/mbm #127                                               None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_88: Be2Nb3  mp-11272              	DFT-HUB  	SV     	78.0000    	aflow:54d192a65c37fe6e	81.9258       	3.9258
+pool_89_0: mp-999502                Pmma #51                                                              None                MoPt
+pool_89_1: aflow:d0c29ad69c95c8f2   Pmma #51,Pmma #51                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.4, 3. ]), 'LDAUJ': array([0, 0])}
+pool_89_2: aflow:240c02b8ae44cefa   Pmma #51,Pmma #51                                                     {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.4, 3. ]), 'LDAUJ': array([0, 0])}
+pool_89_3: aflow:00943bf4bc8e8c0d   P2_{1}/m #11,Pmma #51                                                 None
+pool_89_4: aflow:266bbebb8280d50d   P2_{1}/m #11,Pmma #51                                                 None
+pool_89_5: aflow:ef2dd578249754df   Pmma #51,Pmma #51                                                     None
+pool_89_6: aflow:f69fa13daf5fcd37   P2_{1}/m #11,Pmma #51                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_89: MoPt    mp-999502             	DFT-HUB  	SV     	135.0000   	aflow:d0c29ad69c95c8f2	132.3200      	2.6800
+pool_90_0: mp-2211                  Pm-3n #223                                                            None                  V3Pt
+pool_90_1: aflow:f3ed7adfe82f370c   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_90_2: aflow:1b7e9ab352818cc3   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_90_3: aflow:39fa0fe0d3c3b1d4   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_90_4: aflow:27616718e118dbf4   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_90_5: aflow:343112c326df7745   Pm-3n #223,Pm-3n #223                                                 None
+pool_90_6: aflow:c352f62ea80c8395   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_90: V3Pt    mp-2211               	DFT-HUB  	SV     	94.0000    	aflow:27616718e118dbf4	105.4240      	11.4240
+pool_91_0: mp-1018166               I4/mmm #139                                                           None               AlTc2
+pool_91_1: aflow:2333c0f263184005   I4/mmm #139,I4/mmm #139                                               {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_91_2: aflow:dfd20f57009c4b1b   I4/mmm #139,I4/mmm #139                                               None
+pool_91_3: aflow:1a657d1712a57aa9   I4/mmm #139,I4/mmm #139                                               None
+pool_91_4: aflow:af432545299100b9   C2/m #12,I4/mmm #139                                                  None
+pool_91_5: aflow:b62ef4cae2bb32d3   I4/mmm #139,I4/mmm #139                                               None
+pool_91_6: aflow:572b1f994b021915   Pnnm #58,I4/mmm #139                                                  None
+pool_91_7: aflow:a1540730befb0b1c   C2/m #12,I4/mmm #139                                                  None
+pool_91_8: aflow:4e6258a2f505621a   I4/mmm #139,I4/mmm #139                                               None
+pool_91_9: aflow:07654ae1a4dc7c62   Immm #71,I4/mmm #139                                                  None
+pool_91_10: aflow:49dfbdc535bbf05a  Pnnm #58,I4/mmm #139                                                  None
+pool_91_11: aflow:45c8589ab82a2560  Immm #71,I4/mmm #139                                                  None
+pool_91_12: aflow:dc63907a3bdaa72d  I4/mmm #139,I4/mmm #139                                               None
+pool_91_13: aflow:c3054248b2ed3a7d  Cmcm #63,I4/mmm #139                                                  None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_91: AlTc2   mp-1018166            	DFT-HUB  	SV     	127.0000   	aflow:2333c0f263184005	112.0340      	14.9660
+pool_92_0: mp-1251                  P4/mmm #123                                                           None                  VRh
+pool_92_1: aflow:49351c9f1e22025d   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3.3, 2.7]), 'LDAUJ': array([0, 0])}
+pool_92_2: aflow:f78bb8f5364072c9   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3.3, 2.7]), 'LDAUJ': array([0, 0])}
+pool_92_3: aflow:7b533fd83fed4188   P4/mmm #123,P4/mmm #123                                               {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3.3, 2.7]), 'LDAUJ': array([0, 0])}
+pool_92_4: aflow:b7f630e01742b366   P4/nmm #129,P4/mmm #123                                               None
+pool_92_5: aflow:3782e2b6b10f7df2   P4/mmm #123,P4/mmm #123                                               None
+pool_92_6: aflow:b6ce65c8758a3e52   P4/mmm #123,P4/mmm #123                                               None
+pool_92_7: aflow:5340e63dbae35030   P4/nmm #129,P4/mmm #123                                               None
+pool_92_8: aflow:6510252badc349f9   Cmmm #65,P4/mmm #123                                                  None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_92: VRh     mp-1251               	DFT-HUB  	SV     	96.0000    	aflow:7b533fd83fed4188	81.3444       	14.6556
+pool_93_0: mp-2377                  Pm-3n #223                                                            None                  GaMo3
+pool_93_1: aflow:6d92dc3bd5d26628   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3.9, 2.4]), 'LDAUJ': array([0, 0])}
+pool_93_2: aflow:a6f046c271963a6c   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3.9, 2.4]), 'LDAUJ': array([0, 0])}
+pool_93_3: aflow:11057a666a810098   Pm-3n #223,Pm-3n #223                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3.9, 2.4]), 'LDAUJ': array([0, 0])}
+pool_93_4: aflow:6e431b9d8ae64710   Pm-3n #223,Pm-3n #223                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_93: GaMo3    mp-2377               	DFT-HUB  	SV     	None       	aflow:6d92dc3bd5d26628	111.2040      	not a value
+pool_94_0: mp-1025397               P2_13 #198                                                            None               GeRu
+pool_94_1: aflow:40e22481074f39ef   P2_{1}3 #198,P2_{1}3 #198                                             {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0, 3]), 'LDAUJ': array([0, 0])}
+pool_94_2: aflow:483634103c2c7400   P2_{1}3 #198,P2_{1}3 #198                                             None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_94: GeRu     mp-1025397            	DFT-HUB  	SV     	80.0000    	aflow:40e22481074f39ef	89.2474       	9.2474
+pool_95_0: mp-1395                  Pm-3m #221                                                            None                  VRu
+pool_95_1: aflow:72b84ead471cc518   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_95_2: aflow:2cd188952f1402e7   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_95_3: aflow:822168e1b98ac47e   P4/mmm #123,Pm-3m #221                                                {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_95_4: aflow:2c60ae086ba5b75b   P4/mmm #123,Pm-3m #221                                                {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_95_5: aflow:8eca28d9b6823301   P4/mmm #123,Pm-3m #221                                                {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([3. , 2.7]), 'LDAUJ': array([0, 0])}
+pool_95_6: aflow:2cec2ab7728f2845   P4/nmm #129,Pm-3m #221                                                None
+pool_95_7: aflow:e483b97439e1ed92   Pm-3m #221,Pm-3m #221                                                 None
+pool_95_8: aflow:1c0a1cce4952167b   P4/mmm #123,Pm-3m #221                                                None
+pool_95_9: aflow:a3a75619f0efde47   Pm-3m #221,Pm-3m #221                                                 None
+pool_95_10: aflow:81e7afc6081ba6a5  P4/mmm #123,Pm-3m #221                                                None
+pool_95_11: aflow:9ff98b08866c8880  P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_95: VRu      mp-1395               	DFT-HUB  	SV     	76.0000    	aflow:2cd188952f1402e7	92.8788       	16.8788
+pool_96_0: mp-2540                  Pm-3m #221                                                            None                  VTc
+pool_96_1: aflow:f79a697dd14b142c   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.7, 2.7]), 'LDAUJ': array([0, 0])}
+pool_96_2: aflow:29f32932008fb5f3   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 2]), 'LDAUU': array([2.7, 2.7]), 'LDAUJ': array([0, 0])}
+pool_96_3: aflow:eaeb943de52b20ae   Pm-3m #221,Pm-3m #221                                                 None
+pool_96_4: aflow:82f9dcc75162e550   P2_{1}/m #11,Pm-3m #221                                               None
+pool_96_5: aflow:cbe27945ef2201b9   P4/nmm #129,Pm-3m #221                                                None
+pool_96_6: aflow:1cf2bbb2ca7d878b   Pm-3m #221,Pm-3m #221                                                 None
+pool_96_7: aflow:d968e1fe5ee2eb3c   P4/mmm #123,Pm-3m #221                                                None
+pool_96_8: aflow:563563c86333087b   Pmma #51,Pm-3m #221                                                   None
+pool_96_9: aflow:200400958be9175f   P2_{1}/m #11,Pm-3m #221                                               None
+pool_96_10: aflow:c5620ba8864a8211  P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_96: VTc      mp-2540               	DFT-HUB  	SV     	125.0000   	aflow:f79a697dd14b142c	125.4220      	0.4220
+pool_97_0: mp-715                   Fd-3m #227                                                            None                   ZrIr2
+pool_97_1: aflow:03179715fcf291aa   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.8, 0. ]), 'LDAUJ': array([0, 0])}
+pool_97_2: aflow:521c8903a92c26bf   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.8, 0. ]), 'LDAUJ': array([0, 0])}
+pool_97_3: aflow:aef1246e5a5979ad   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.8, 0. ]), 'LDAUJ': array([0, 0])}
+pool_97_4: aflow:7b6347ec482b0b8b   Fd-3m #227,Fd-3m #227                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.8, 0. ]), 'LDAUJ': array([0, 0])}
+pool_97_5: aflow:7b0fdd5e407b52a7   Fd-3m #227,Fd-3m #227                                                 None
+pool_97_6: aflow:7efec2057196f9dd   Fd-3m #227,Fd-3m #227                                                 None
+pool_97_7: aflow:91b34c5e8f2b5cdb   Fd-3m #227,Fd-3m #227                                                 None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_97: ZrIr2    mp-715                	DFT-HUB  	SV     	124.0000   	aflow:aef1246e5a5979ad	124.8780      	0.8780
+pool_98_0: mp-1885                  Pm-3m #221                                                            None                  AlIr
+pool_98_1: aflow:7372464395d0b3c6   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.8]), 'LDAUJ': array([0, 0])}
+pool_98_2: aflow:9a5f1aae024f49dd   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.8]), 'LDAUJ': array([0, 0])}
+pool_98_3: aflow:4810e2187d7e953a   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([0, 2]), 'LDAUU': array([0. , 2.8]), 'LDAUJ': array([0, 0])}
+pool_98_4: aflow:0fbeee1a55af7cec   P2_{1}/m #11,Pm-3m #221                                               None
+pool_98_5: aflow:0e203071be4e4a62   P2_{1}/m #11,Pm-3m #221                                               None
+pool_98_6: aflow:b1a8a3671fec23f4   P4/nmm #129,Pm-3m #221                                                None
+pool_98_7: aflow:d36ae3daa0f9b3b9   Pm-3m #221,Pm-3m #221                                                 None
+pool_98_8: aflow:d442f54a082bced3   P4/mmm #123,Pm-3m #221                                                None
+pool_98_9: aflow:c0d9f74bbf236685   Pm-3m #221,Pm-3m #221                                                 None
+pool_98_10: aflow:bb52c324ba26a82d  Pmma #51,Pm-3m #221                                                   None
+pool_98_11: aflow:c8c11633410b33f2  P2_{1}/m #11,Pm-3m #221                                               None
+pool_98_12: aflow:224962925c3babc9  P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_98: AlIr     mp-1885               	DFT-HUB  	SV     	116.0000   	aflow:7372464395d0b3c6	119.6540      	3.6540
+pool_99_0: mp-11541                 Pm-3m #221                                                            None                 ZrOs
+pool_99_1: aflow:a36bd88304037b89   Pm-3m #221,Pm-3m #221                                                 {'LDAUTYPE': 2, 'LDAUL': array([2, 0]), 'LDAUU': array([2.6, 0. ]), 'LDAUJ': array([0, 0])}
+pool_99_2: aflow:e34003a65883f98c   Pmmn #59,Pm-3m #221                                                   None
+pool_99_3: aflow:51c7ec4a53d3343f   Pm-3m #221,Pm-3m #221                                                 None
+pool_99_4: aflow:86c47ff28c800f87   P2_{1}/m #11,Pm-3m #221                                               None
+pool_99_5: aflow:dbab6d9446093f70   P4/nmm #129,Pm-3m #221                                                None
+pool_99_6: aflow:0c36c0c64b36f796   Pm-3m #221,Pm-3m #221                                                 None
+pool_99_7: aflow:017277d9f0b42343   P4/mmm #123,Pm-3m #221                                                None
+pool_99_8: aflow:d97ccbf64e712d87   Pmma #51,Pm-3m #221                                                   None
+pool_99_9: aflow:19dad8a0ebd2c1c8   P2_{1}/m #11,Pm-3m #221                                               None
+pool_99_10: aflow:d1af7363816ef523  P4/nmm #129,Pm-3m #221                                                None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_99: ZrOs     mp-11541              	DFT-HUB  	SV     	99.0000    	aflow:a36bd88304037b89	108.7240      	9.7240
+
