@@ -25,4 +25,6 @@ densitygit: base_property_MP_1 = 'density', base_property_MP_2 = '', base_proper
 
 bandgapgit: base_property_MP_1 = 'band_gap', base_property_MP_2 = '', base_property_AFLOW = 'Egap'
 
+GVRHgit: base_property_MP_1 = 'elasticity', base_property_MP_2 = 'G_VRH', base_property_AFLOW = 'ael_shear_modulus_vrh'
+
 
