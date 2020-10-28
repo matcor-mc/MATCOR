@@ -1,0 +1,15 @@
+MATCOR: A Program for the Cross-Validation of Material Properties Between Databases
+
+SV == Structure VERIFIED with pymatgen structure matcher
+NSV == Structure NOT VERIFIED with pymatgen structure matcher
+HUB == Hubbard-U used
+DFT == Hubbard-U not used
+
+pool_0_0: aflow:9f890ac752b64ec8   Pmm2 #25,Pm-3m #221,Pmm2 #25,Pm-3m #221                               None   ZrPd3
+pool_0_1: mp-1017543               Pm-3m #221                                                            None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_0: ZrPd3    aflow:9f890ac752b64ec8	DFT-DFT  	SV     	10.3408    	mp-1017543            	10.3584       	0.0176        
+pool_1_0: aflow:d5c8993b693339e3   Fm-3m #225,Fm-3m #225,Fm-3m #225,Fm-3m #225                           {'LDAUTYPE': 2, 'LDAUL': array([0, 3]), 'LDAUU': array([0. , 6.5]), 'LDAUJ': array([0, 1])}   PrO2
+pool_1_1: mp-1302                  Fm-3m #225                                                            None
+input_id                                    	hubbard_U	SV//NSV	property_py	output_material       	property_AFLOW	min_difference
+pool_best_1: PrO2     aflow:d5c8993b693339e3	HUB-DFT  	SV     	6.1204     	mp-1302               	6.8135        	0.6931        
